@@ -6,9 +6,174 @@
         <link rel="stylesheet" href="./public/css/style.css" type="text/css">
         <title>OhMyFood!</title>
     </head>
-    <header></header>
+    <!-- Header -->
+    <header>
+        <!-- Conteneur du logo -->
+        <div>
+            <img src="./img/logo/ohmyfood@2x.svg" alt="OhMyFood" width="200px" height="auto">
+        </div>
+    </header>
+    <!-- Body -->
     <body>
-        
+        <!-- Formulaire de localisation -->
+        <div>
+            <!-- Img map marker -->
+            <div>
+                <img src="./img/icons/map-marker-alt-solid.svg" alt="map marker" width="15px" height="15px">
+            </div>
+            <form action="traitement.php" method="POST">
+                <input type="text" name="city" id="city" value="Paris, Belleville">
+            </form>
+        </div>
+
+        <!-- Section de présentation -->
+        <section>
+            <!-- Conteneur de la présentation -->
+            <div>
+                <h1>Réservez le menu qui vous convient</h1>
+                <p>Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
+                <!-- Bouton -->
+                <button type="button">Explorer nos restaurants</button>
+            </div>
+            <!-- Conteneur du fonctionnement -->
+            <div>
+                <h1>Fonctionnement</h1>
+                <!-- Conteneur des petites cartes -->
+                <div>
+                    <!-- Petite carte -->
+                    <div>
+                        <!-- Numéro -->
+                        <div><span>1</span></div>
+                        <!-- Icone -->
+                        <div><img src="" alt="Icone tél"></div>
+                        <!-- Texte -->
+                        <h2>Choisissez  un restaurant</h2>
+                    </div>
+                    <!-- Petite carte -->
+                    <div>
+                        <!-- Numéro -->
+                        <div><span>2</span></div>
+                        <!-- Icone -->
+                        <div><img src="" alt="Icone liste"></div>
+                        <!-- Texte -->
+                        <h2>Composez votre menu</h2>
+                    </div>
+                    <!-- Petite carte -->
+                    <div>
+                        <!-- Numéro -->
+                        <div><span>3</span></div>
+                        <!-- Icone -->
+                        <div><img src="" alt="Icone restaurant"></div>
+                        <!-- Texte -->
+                        <h2>Dégustez au restaurant</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section menus -->
+        <section>
+            <!-- Titre de la section -->
+            <h1>Restaurants</h1>
+            <!-- Carte ctn -->
+            <div>
+                <a href="./restaurants/la_palette_du_gout.html">
+                    <figure>
+                        <img src="./img/restos/la_palette_du_gout.jpg" alt="Photo La palette du goût" width="100px" height="auto">
+                        <figcaption>
+                            <h3>La palette du goût</h3>
+                            <span>Menilmontant</span>
+                            <!-- Icone coeur -->
+                            <div>
+                                <img src="" alt="Icone coeur">
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <!-- Block "nouveau" -->
+                    <div>
+                        <span>Nouveau</span>
+                    </div>
+                </a>
+            </div>
+            <!-- Carte ctn -->
+            <div>
+                <a href="./restaurants/la_note_enchante.html">
+                    <figure>
+                        <img src="./img/restos/la_note_enchantee.jpg" alt="Photo La note enchantée" width="100px" height="auto">
+                        <figcaption>
+                            <h3>La note enchantée</h3>
+                            <span>Charonne</span>
+                            <!-- Icone coeur -->
+                            <div>
+                                <img src="" alt="Icone coeur">
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <!-- Block "nouveau" -->
+                    <div>
+                        <span>Nouveau</span>
+                    </div>
+                </a>    
+            </div>
+            <!-- Carte ctn -->
+            <div>
+                <a href="./restaurants/a_la_francaise.html">
+                    <figure>
+                        <img src="./img/restos/a_la_francaise.jpg" alt="Photo à la française" width="100px" height="auto">
+                        <figcaption>
+                            <h3>À la française</h3>
+                            <span>Cité Rouge</span>
+                            <!-- Icone coeur -->
+                            <div>
+                                <img src="" alt="Icone coeur">
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <!-- Carte ctn -->
+            <div>
+                <a href="./restaurants/le_delice_des_sens.html">
+                    <figure>
+                        <img src="./img/restos/le_delice_des_sens.jpg" alt="Photo le délice des sens" width="100px" height="auto">
+                        <figcaption>
+                            <h3>Le délice des sens</h3>
+                            <span>Folie-Méricourt</span>
+                            <!-- Icone coeur -->
+                            <div>
+                                <img src="" alt="Icone coeur">
+                            </div>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </section>
     </body>
-    <footer></footer>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Logo -->
+        <div>
+            <img src="./img/logo/ohmyfood@2x.svg" alt="ohmyfood" width="100px" height="auto">
+        </div>
+        <!-- Liens -->
+        <div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <div><img src="" alt="Icone Couverts"></div>
+                        <span>Proposer un restaurant</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div><img src="" alt="Icone poignée de main"></div>
+                        <span>Devenir partenaire</span>
+                    </a>
+                </li>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="mailto:ohmyfood@something.com">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
 </html>
