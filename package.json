@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style compressed",
-    "prefix" : "postcss ./public/css/style.css --use autoprefixer -d ./public/prefixed/"
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/prefixed/"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   ],
   "author": "poomcha",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/Poomcha/BenjaminDegeneve_3_05092021/issues"
   },
