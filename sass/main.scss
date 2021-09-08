@@ -1,0 +1,17 @@
+// Import des fichiers .scss
+@import "./utils/variables";
+@import "./utils/functions";
+@import "./utils/mixins";
+@import "./utils/placeholders";
+
+@import "./base/base";
+
+@import "./components/buttons";
+
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/large-card";
+@import "./layout/small-card";
+@import "./layout/list-card";
+
+@import "./pages/restaurants";
