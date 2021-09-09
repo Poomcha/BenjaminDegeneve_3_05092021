@@ -1,6 +1,6 @@
 .heading {
     display: flex;
-    height: 150px;
+    height: 16rem;
     position: relative;
     &__logo-ctn {
         // border: steelblue 2px solid;
@@ -13,10 +13,10 @@
     }
     &__arrow-ctn {
         // border: springgreen 1px solid;
-        width: 40px;
+        width: 4rem;
         position: absolute;
-        top: 55px;
-        left: 80px;
+        top: 5.5rem;
+        left: 8rem;
         img {
             width: 100%;
             height: auto;
