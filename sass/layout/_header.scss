@@ -1,0 +1,25 @@
+.heading {
+    display: flex;
+    height: 150px;
+    position: relative;
+    &__logo-ctn {
+        // border: steelblue 2px solid;
+        width: 100%;
+        @include flex-centered();
+        img {
+            width: 50%;
+            height: auto;
+        }
+    }
+    &__arrow-ctn {
+        // border: springgreen 1px solid;
+        width: 40px;
+        position: absolute;
+        top: 55px;
+        left: 80px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

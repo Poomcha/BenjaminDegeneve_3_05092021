@@ -1,1 +1,1 @@
-/*# sourceMappingURL=style.css.map */
+*{margin:0;padding:0;box-sizing:border-box}body{max-width:100%}.heading{display:flex;height:150px;position:relative}.heading__logo-ctn{width:100%;display:flex;justify-content:center;align-items:center}.heading__logo-ctn img{width:50%;height:auto}.heading__arrow-ctn{width:40px;position:absolute;top:55px;left:80px}.heading__arrow-ctn img{width:100%;height:auto}/*# sourceMappingURL=style.css.map */
