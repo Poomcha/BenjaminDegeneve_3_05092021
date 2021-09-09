@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewpwort" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./public/css/style.css" type="text/css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:100,900i&family=Shrikhand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
         <title>OhMyFood!</title>
     </head>
     <!-- Header -->
@@ -23,7 +23,7 @@
                 <img src="./img/icons/map-marker-alt-solid.svg" alt="map marker" width="15px" height="15px">
             </div>
             <form action="traitement.php" method="POST">
-                <input type="text" name="city" id="city" value="Paris, Belleville">
+                <input type="text" name="city" id="city" value="Paris, Belleville" class="txt">
             </form>
         </div>
 
@@ -31,14 +31,14 @@
         <section>
             <!-- Conteneur de la présentation -->
             <div>
-                <h1>Réservez le menu qui vous convient</h1>
-                <p>Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
+                <h1 class="txt txt--title">Réservez le menu qui vous convient</h1>
+                <p class="txt txt--desc">Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
                 <!-- Bouton -->
-                <button type="button">Explorer nos restaurants</button>
+                <button type="button"><span class="txt txt--white">Explorer nos restaurants</span></button>
             </div>
             <!-- Conteneur du fonctionnement -->
             <div>
-                <h1>Fonctionnement</h1>
+                <h1 class="txt txt--title">Fonctionnement</h1>
                 <!-- Conteneur des petites cartes -->
                 <div>
                     <!-- Petite carte -->
@@ -48,7 +48,7 @@
                         <!-- Icone -->
                         <div><img src="" alt="Icone tél"></div>
                         <!-- Texte -->
-                        <h2>Choisissez  un restaurant</h2>
+                        <h2 class="txt">Choisissez  un restaurant</h2>
                     </div>
                     <!-- Petite carte -->
                     <div>
@@ -57,7 +57,7 @@
                         <!-- Icone -->
                         <div><img src="" alt="Icone liste"></div>
                         <!-- Texte -->
-                        <h2>Composez votre menu</h2>
+                        <h2 class="txt">Composez votre menu</h2>
                     </div>
                     <!-- Petite carte -->
                     <div>
@@ -66,7 +66,7 @@
                         <!-- Icone -->
                         <div><img src="" alt="Icone restaurant"></div>
                         <!-- Texte -->
-                        <h2>Dégustez au restaurant</h2>
+                        <h2 class="txt">Dégustez au restaurant</h2>
                     </div>
                 </div>
             </div>
@@ -75,15 +75,15 @@
         <!-- Section menus -->
         <section>
             <!-- Titre de la section -->
-            <h1>Restaurants</h1>
+            <h1 class="txt txt--title">Restaurants</h1>
             <!-- Carte ctn -->
             <div>
                 <a href="./restaurants/la_palette_du_gout.html">
                     <figure>
                         <img src="./img/restos/la_palette_du_gout.jpg" alt="Photo La palette du goût" width="100px" height="auto">
                         <figcaption>
-                            <h3>La palette du goût</h3>
-                            <span>Menilmontant</span>
+                            <h3 class="txt txt--card-title">La palette du goût</h3>
+                            <span class="txt">Menilmontant</span>
                             <!-- Icone coeur -->
                             <div>
                                 <img src="" alt="Icone coeur">
@@ -92,7 +92,7 @@
                     </figure>
                     <!-- Block "nouveau" -->
                     <div>
-                        <span>Nouveau</span>
+                        <span class="txt txt--new">Nouveau</span>
                     </div>
                 </a>
             </div>
@@ -102,8 +102,8 @@
                     <figure>
                         <img src="./img/restos/la_note_enchantee.jpg" alt="Photo La note enchantée" width="100px" height="auto">
                         <figcaption>
-                            <h3>La note enchantée</h3>
-                            <span>Charonne</span>
+                            <h3 class="txt txt--card-title">La note enchantée</h3>
+                            <span class="txt">Charonne</span>
                             <!-- Icone coeur -->
                             <div>
                                 <img src="" alt="Icone coeur">
@@ -112,7 +112,7 @@
                     </figure>
                     <!-- Block "nouveau" -->
                     <div>
-                        <span>Nouveau</span>
+                        <span class="txt txt--new">Nouveau</span>
                     </div>
                 </a>    
             </div>
@@ -122,8 +122,8 @@
                     <figure>
                         <img src="./img/restos/a_la_francaise.jpg" alt="Photo à la française" width="100px" height="auto">
                         <figcaption>
-                            <h3>À la française</h3>
-                            <span>Cité Rouge</span>
+                            <h3 class="txt txt--title">À la française</h3>
+                            <span class="txt">Cité Rouge</span>
                             <!-- Icone coeur -->
                             <div>
                                 <img src="" alt="Icone coeur">
@@ -138,8 +138,8 @@
                     <figure>
                         <img src="./img/restos/le_delice_des_sens.jpg" alt="Photo le délice des sens" width="100px" height="auto">
                         <figcaption>
-                            <h3>Le délice des sens</h3>
-                            <span>Folie-Méricourt</span>
+                            <h3 class="txt txt--title">Le délice des sens</h3>
+                            <span class="txt">Folie-Méricourt</span>
                             <!-- Icone coeur -->
                             <div>
                                 <img src="" alt="Icone coeur">
@@ -154,26 +154,24 @@
     <!-- Footer -->
     <footer>
         <!-- Logo -->
-        <div>
-            <img src="./img/logo/ohmyfood@2x.svg" alt="ohmyfood" width="100px" height="auto">
-        </div>
+        <h1 class="txt txt--foot-logo txt--white">ohmyfood</h1>
         <!-- Liens -->
         <div>
             <ul>
                 <li>
                     <a href="#">
                         <div><img src="" alt="Icone Couverts"></div>
-                        <span>Proposer un restaurant</span>
+                        <span class="txt txt--white">Proposer un restaurant</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <div><img src="" alt="Icone poignée de main"></div>
-                        <span>Devenir partenaire</span>
+                        <span class="txt txt--white">Devenir partenaire</span>
                     </a>
                 </li>
-                <li><a href="#">Mentions légales</a></li>
-                <li><a href="mailto:ohmyfood@something.com">Contact</a></li>
+                <li><a href="#"><span class="txt txt--white">Mentions légales</span></a></li>
+                <li><a href="mailto:ohmyfood@something.com"><span class="txt txt--white">Contact</span></a></li>
             </ul>
         </div>
     </footer>

@@ -9,3 +9,32 @@ html {
 .titre {
     font-family: 'Shrikhand', cursive;
 }
+
+.txt {
+    @include font-sizes();
+    &--white {
+        @include txt-color();
+    }
+    &--rest-title {
+        @include font-sizes(rest-title);
+    }
+    &--title {
+        @include font-sizes(title);
+    }
+    &--desc {
+        @include font-sizes(desc);
+    }
+    &--card-title {
+        @include font-sizes(card-title);
+    }
+    &--price {
+        @include font-sizes(price);
+    }
+    &--new {
+        @include font-sizes(new);
+    }
+    &--foot-logo {
+        @include font-sizes(foot-logo);
+    }
+
+}

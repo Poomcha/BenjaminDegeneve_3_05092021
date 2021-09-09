@@ -3,3 +3,11 @@
     justify-content: center;
     align-items: center;
 }
+
+@mixin txt-color($color: $white) {
+    color: $color;
+}
+
+@mixin font-sizes($size: map-get($font-size, default)) {
+    font-size: map-get($font-size, $size);
+}

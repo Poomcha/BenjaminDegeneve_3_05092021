@@ -2,3 +2,21 @@
 $color-primary: #9356DC;
 $color-secondary: #FF79DA;
 $color-tertiary: #99E2D0;
+$footer-background-clr: #363438;
+$white: #FFF;
+
+// Tailles de police
+$font-size: (
+    default: 1.4rem,
+    rest-title: 3rem,
+    title: 2rem,
+    desc: 1.6rem,
+    card-title: 1.6rem,
+    card-desc: 1.4rem,
+    btn-txt: 1.4rem,
+    price: 1.6rem,
+    new: 1.2rem,
+    input: 1.4rem,
+    foot-logo: 1.8rem,
+    foot-links: 1.4rem
+);

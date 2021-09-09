@@ -1,1 +1,83 @@
-*{margin:0;padding:0;box-sizing:border-box}body{max-width:100%}*{font-family:"Roboto",sans-serif}html{font-size:62.5%}.titre{font-family:"Shrikhand",cursive}.heading{display:flex;height:16rem;position:relative}.heading__logo-ctn{width:100%;display:flex;justify-content:center;align-items:center}.heading__logo-ctn img{width:50%;height:auto}.heading__arrow-ctn{width:4rem;position:absolute;top:5.5rem;left:8rem}.heading__arrow-ctn img{width:100%;height:auto}/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.titre {
+  font-family: "Shrikhand", cursive;
+}
+
+.txt--white {
+  color: #FFF;
+}
+.txt--rest-title {
+  font-size: 3rem;
+}
+.txt--title {
+  font-size: 2rem;
+}
+.txt--desc {
+  font-size: 1.6rem;
+}
+.txt--card-title {
+  font-size: 1.6rem;
+}
+.txt--price {
+  font-size: 1.6rem;
+}
+.txt--new {
+  font-size: 1.2rem;
+}
+.txt--foot-logo {
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.heading {
+  display: flex;
+  height: 16rem;
+  position: relative;
+}
+.heading__logo-ctn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading__logo-ctn img {
+  width: 50%;
+  height: auto;
+}
+.heading__arrow-ctn {
+  width: 4rem;
+  position: absolute;
+  top: 5.5rem;
+  left: 8rem;
+}
+.heading__arrow-ctn img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #363438;
+}
+
+/*# sourceMappingURL=style.css.map */
