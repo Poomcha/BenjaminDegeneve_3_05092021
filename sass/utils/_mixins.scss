@@ -8,7 +8,7 @@
     color: $color;
 }
 
-@mixin font-sizes($size: map-get($font-size, default)) {
+@mixin font-sizes($size: map-get($font-size, base)) {
     font-size: map-get($font-size, $size);
 }
 

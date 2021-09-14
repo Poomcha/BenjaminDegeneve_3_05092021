@@ -1,0 +1,43 @@
+.large-card {
+    width: 90%;
+    margin: auto;
+    background-color: $white;
+    height: 60rem;
+    border-radius: 3rem;
+    position: relative;
+    @include card-btn-shadow();
+    &__img-ctn {
+        img {
+            width: 100%;
+            height: 45rem;
+            object-fit: cover;
+            border-radius: 3rem 3rem 0 0;
+        }
+        figcaption {
+            width: 90%;
+            height: 15rem;
+            margin: auto;
+            @include flex-centered();
+            justify-content: space-between;
+            .large-card-text-ctn {
+                
+            }
+            .large-card-heart-icon {
+                img {
+                    @include sizing-icons(map-get($icon-sizes, large-card-heart-icon));                    height: 5rem;
+                }
+            }
+        }
+    }
+    &__new {
+        width: 20rem;
+        background-color: $color-tertiary;
+        text-align: center;
+        padding: 1.5rem 0 1.5rem 0;
+        border-radius: 1rem;
+        position: absolute;
+        top: 3rem;
+        right: 3rem;
+    }
+
+}

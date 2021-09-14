@@ -1,3 +1,25 @@
 footer {
     background-color: $footer-background-clr;
+    .foot-ctn {
+        width: 80%;
+        margin: auto;
+        padding: 5rem 0 8rem 0;
+        h1 {
+            margin-bottom: 5rem;
+        }
+        li {
+            list-style-type: none;
+            margin-bottom: 2rem;
+        }
+        li a {
+            display: flex;
+        }
+        .foot-icon {
+            @include sizing-icons(map-get($icon-sizes, footer-icons));
+        }
+
+        .foot-link-txt-ctn {
+            margin-left: 3rem;
+        }
+    }
 }

@@ -1,0 +1,19 @@
+.rest-ctn {
+    margin-top: 5rem;
+    padding-bottom: 12rem;
+    width: 100%;
+    background-color: $main-background-clr;
+    &--centered {
+        width: 90%;
+        margin: auto;
+        h1 {
+            padding: 12rem 0 6rem 0;
+        }
+        .large-cards-ctn {
+            height: 260rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}

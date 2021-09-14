@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.titre {
+.titre, .foot-logo {
     font-family: 'Shrikhand', cursive;
 }
 
@@ -10,6 +10,9 @@
     @include font-sizes();
     &--white {
         @include txt-color();
+    }
+    &--darken-tertiary {
+        @include txt-color($new-text-clr);
     }
     &--grey {
         @include txt-color($grey);
@@ -46,5 +49,11 @@
     }
     &--list-card-title {
         @include font-sizes(list-card-titre);
+    }
+    &--card-desc {
+        @include font-sizes(card-desc);
+    }
+    &--foot-links {
+        @include font-sizes(foot-links);
     }
 }

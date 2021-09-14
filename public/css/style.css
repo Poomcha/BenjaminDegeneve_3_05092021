@@ -16,12 +16,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.titre {
+.titre, .foot-logo {
   font-family: "Shrikhand", cursive;
 }
 
 .txt--white {
   color: #FFF;
+}
+.txt--darken-tertiary {
+  color: #278870;
 }
 .txt--grey {
   color: #3c3c3c;
@@ -36,16 +39,16 @@ body {
   font-size: 5rem;
 }
 .txt--card-title {
-  font-size: 1.6rem;
+  font-size: 5rem;
 }
 .txt--price {
   font-size: 1.6rem;
 }
 .txt--new {
-  font-size: 1.2rem;
+  font-size: 4rem;
 }
 .txt--foot-logo {
-  font-size: 1.8rem;
+  font-size: 5rem;
 }
 .txt--title-desc {
   font-size: 8rem;
@@ -58,6 +61,12 @@ body {
 }
 .txt--list-card-title {
   font-size: 3.5rem;
+}
+.txt--card-desc {
+  font-size: 4rem;
+}
+.txt--foot-links {
+  font-size: 4rem;
 }
 
 .btn {
@@ -73,6 +82,46 @@ body {
 a {
   text-decoration: none;
   color: black;
+}
+
+.large-card {
+  width: 90%;
+  margin: auto;
+  background-color: #FFF;
+  height: 60rem;
+  border-radius: 3rem;
+  position: relative;
+  box-shadow: 0rem 1.5rem 1.5rem #bebebe;
+}
+.large-card__img-ctn img {
+  width: 100%;
+  height: 45rem;
+  object-fit: cover;
+  border-radius: 3rem 3rem 0 0;
+}
+.large-card__img-ctn figcaption {
+  width: 90%;
+  height: 15rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.large-card__img-ctn figcaption .large-card-heart-icon img {
+  width: 5rem;
+  height: 5rem;
+  height: 5rem;
+}
+.large-card__new {
+  width: 20rem;
+  background-color: #99E2D0;
+  text-align: center;
+  padding: 1.5rem 0 1.5rem 0;
+  border-radius: 1rem;
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
 }
 
 .list-card {
@@ -142,6 +191,28 @@ a {
 footer {
   background-color: #363438;
 }
+footer .foot-ctn {
+  width: 80%;
+  margin: auto;
+  padding: 5rem 0 8rem 0;
+}
+footer .foot-ctn h1 {
+  margin-bottom: 5rem;
+}
+footer .foot-ctn li {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+footer .foot-ctn li a {
+  display: flex;
+}
+footer .foot-ctn .foot-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+footer .foot-ctn .foot-link-txt-ctn {
+  margin-left: 3rem;
+}
 
 .form-ctn {
   width: 100%;
@@ -206,6 +277,26 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.rest-ctn {
+  margin-top: 5rem;
+  padding-bottom: 12rem;
+  width: 100%;
+  background-color: #e7e7e7;
+}
+.rest-ctn--centered {
+  width: 90%;
+  margin: auto;
+}
+.rest-ctn--centered h1 {
+  padding: 12rem 0 6rem 0;
+}
+.rest-ctn--centered .large-cards-ctn {
+  height: 260rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
