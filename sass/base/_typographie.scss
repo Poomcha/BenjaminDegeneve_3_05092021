@@ -41,4 +41,10 @@
     &--btn {
         @include font-sizes(btn-txt);
     }
+    &--list-card-num {
+        @include font-sizes(list-card-num);
+    }
+    &--list-card-title {
+        @include font-sizes(list-card-titre);
+    }
 }

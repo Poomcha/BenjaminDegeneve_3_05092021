@@ -30,7 +30,7 @@ body {
   font-size: 3rem;
 }
 .txt--title {
-  font-size: 2rem;
+  font-size: 8rem;
 }
 .txt--desc {
   font-size: 5rem;
@@ -53,6 +53,12 @@ body {
 .txt--btn {
   font-size: 5rem;
 }
+.txt--list-card-num {
+  font-size: 3rem;
+}
+.txt--list-card-title {
+  font-size: 3.5rem;
+}
 
 .btn {
   width: 75%;
@@ -67,6 +73,44 @@ body {
 a {
   text-decoration: none;
   color: black;
+}
+
+.list-card {
+  width: 90%;
+  margin: auto;
+  background-color: #e7e7e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  height: 15rem;
+  border-radius: 5rem;
+  position: relative;
+  box-shadow: 0rem 1.5rem 1.5rem #bebebe;
+}
+.list-card__num-ctn {
+  background-color: #9356DC;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  left: -2rem;
+  top: 5.5rem;
+}
+.list-card__num-ctn span {
+  margin: auto;
+}
+.list-card__img-ctn {
+  margin-left: 7rem;
+  margin-top: 1rem;
+}
+.list-card__img-ctn img {
+  width: 4rem;
+  height: 4rem;
+}
+.list-card h2 {
+  margin-left: 7rem;
 }
 
 .heading {
@@ -147,6 +191,21 @@ footer {
 }
 .pres-ctn__desc-ctn p {
   margin-bottom: 8rem;
+}
+
+.fctnmnt {
+  width: 90%;
+  height: 81.2rem;
+  margin: auto;
+}
+.fctnmnt h1 {
+  margin: 12rem 0 6rem 0;
+}
+.fctnmnt .list-cards-ctn {
+  height: 57.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 /*# sourceMappingURL=style.css.map */

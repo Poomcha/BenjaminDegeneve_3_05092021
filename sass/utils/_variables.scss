@@ -8,6 +8,7 @@ $border-form-clr:rgb(150,150,150);
 $offset-card-clr: rgb(190, 190, 190);
 $footer-background-clr: #363438;
 $btn-background: -webkit-radial-gradient(top left, ellipse, $color-secondary, $color-primary);
+$list-card-bg-clr: rgb(231, 231, 231);
 $grey: rgb(60, 60, 60);
 $white: #FFF;
 
@@ -15,7 +16,7 @@ $white: #FFF;
 $font-size: (
     default: 1.4rem,
     rest-title: 3rem,
-    title: 2rem,
+    title: 8rem,
     desc: 5rem,
     card-title: 1.6rem,
     card-desc: 1.4rem,
@@ -26,6 +27,8 @@ $font-size: (
     foot-logo: 1.8rem,
     foot-links: 1.4rem,
     desc-title: 8rem,
+    list-card-num: 3rem,
+    list-card-titre: 3.5rem,
 );
 
 // Box Shadow
@@ -40,4 +43,5 @@ $shadow: (
 $icon-sizes : (
     default: 0.5rem,
     map-marker-size: 4rem,
+    list-card-icons: 4rem,
 );

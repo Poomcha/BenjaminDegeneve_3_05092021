@@ -1,0 +1,34 @@
+.list-card {
+    width: 90%;
+    margin: auto;
+    background-color: $list-card-bg-clr;
+    @include flex-centered();
+    justify-content: flex-start;
+    height: 15rem;
+    border-radius: 5rem;
+    position: relative;
+    @include card-btn-shadow();
+    &__num-ctn {
+        background-color: $color-primary;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        display: flex;
+        position: absolute;
+        left: -2rem;
+        top: 5.5rem;
+        span {
+            margin: auto;
+        }
+    }
+    &__img-ctn {
+        margin-left: 7rem;
+        margin-top: 1rem;
+        img {
+            @include sizing-icons(map-get($icon-sizes, list-card-icons));
+        }
+    }
+    h2 {
+        margin-left: 7rem;
+    }
+}
