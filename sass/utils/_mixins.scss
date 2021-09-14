@@ -12,9 +12,10 @@
     font-size: map-get($font-size, $size);
 }
 
-@mixin card-shadow($off-x: map-get($shadow, $offset-bottom),
-                   $off-y: map-get($shadow, $offset-right),
-                   $blur: map-get($shadow, $offset-blur),
+@mixin card-btn-shadow($off-x: map-get($shadow, offset-bottom),
+                   $off-y: map-get($shadow, offset-right),
+                   $blur: map-get($shadow, offset-blur),
+                   $spread: map-get($shadow, spread),
                    $color: $offset-card-clr) {
     box-shadow: $off-x $off-y $blur $color;                
 }

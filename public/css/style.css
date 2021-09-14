@@ -23,6 +23,9 @@ body {
 .txt--white {
   color: #FFF;
 }
+.txt--grey {
+  color: #3c3c3c;
+}
 .txt--rest-title {
   font-size: 3rem;
 }
@@ -58,6 +61,7 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 10rem;
+  box-shadow: 0rem 1.5rem 1.5rem #bebebe;
 }
 
 a {
@@ -98,7 +102,7 @@ footer {
 .form-ctn {
   width: 100%;
   height: 16rem;
-  border-top: #969696 0.8rem solid;
+  border-top: 0.8rem solid #969696;
   background-color: #bebebe;
   display: flex;
   justify-content: center;

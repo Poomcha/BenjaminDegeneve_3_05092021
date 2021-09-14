@@ -11,6 +11,9 @@
     &--white {
         @include txt-color();
     }
+    &--grey {
+        @include txt-color($grey);
+    }
     &--rest-title {
         @include font-sizes(rest-title);
     }

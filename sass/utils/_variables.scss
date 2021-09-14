@@ -4,10 +4,11 @@ $color-secondary: #FF79DA;
 $color-tertiary: #99E2D0;
 $main-background-clr: rgb(231, 231, 231);
 $form-background-clr: rgb(190, 190, 190);
-$border-form-clr: rgb(150,150,150);
-$offset-card-clr: rgb(175, 175, 175);
+$border-form-clr:rgb(150,150,150);
+$offset-card-clr: rgb(190, 190, 190);
 $footer-background-clr: #363438;
 $btn-background: -webkit-radial-gradient(top left, ellipse, $color-secondary, $color-primary);
+$grey: rgb(60, 60, 60);
 $white: #FFF;
 
 // Tailles de police
@@ -29,9 +30,10 @@ $font-size: (
 
 // Box Shadow
 $shadow: (
-    offset-bottom: 0.2rem,
-    offset-right: 0.2rem,
-    offset-blur: 1rem,
+    offset-bottom: 0rem,
+    offset-right: 1.5rem,
+    offset-blur: 1.5rem,
+    spread: 0.05rem,
 );
 
 // Taille des icones

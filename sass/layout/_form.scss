@@ -2,7 +2,7 @@
     // border: red solid 2px;
     width: 100%;
     height: 16rem;
-    border-top: $border-form-clr 0.8rem solid;
+    border-top: 0.8rem solid $border-form-clr;
     background-color: $form-background-clr;
     @include flex-centered();
     &__img-ctn {
