@@ -4,16 +4,16 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   max-width: 100%;
 }
 
 * {
   font-family: "Roboto", sans-serif;
-}
-
-html {
-  font-size: 62.5%;
 }
 
 .titre {
@@ -78,6 +78,37 @@ a {
 
 footer {
   background-color: #363438;
+}
+
+.form-ctn {
+  width: 100%;
+  height: 10rem;
+  border-top: #969696 0.8rem solid;
+  background-color: #bebebe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-ctn__img-ctn {
+  margin-right: 6rem;
+}
+.form-ctn__img-ctn img {
+  width: 4rem;
+  height: 4rem;
+}
+.form-ctn__form {
+  height: 4rem;
+}
+.form-ctn__form input {
+  height: inherit;
+  background-color: inherit;
+  border: none;
+  font: inherit;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.form-ctn__form input :active {
+  outline: none;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+.form-ctn {
+    width: 100%;
+    height: 10rem;
+    border-top: $border-form-clr 0.8rem solid;
+    background-color: $form-background-clr;
+    @include flex-centered();
+    &__img-ctn {
+        margin-right: 6rem;
+        img {
+            @include sizing-icons(map-get($icon-sizes, map-marker-size));
+        }
+    }
+    &__form {
+        height: map-get($icon-sizes, map-marker-size);
+        input {
+            height: inherit;
+            background-color: inherit;
+            border: none;
+            font: inherit;
+            font-weight: 700;
+            font-size: map-get($font-size, input);
+            :active {
+                outline: none;
+            }
+        }
+    }
+}

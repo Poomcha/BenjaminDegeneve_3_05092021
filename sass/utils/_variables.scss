@@ -2,6 +2,10 @@
 $color-primary: #9356DC;
 $color-secondary: #FF79DA;
 $color-tertiary: #99E2D0;
+$main-background-clr: rgb(231, 231, 231);
+$form-background-clr: rgb(190, 190, 190);
+$border-form-clr: rgb(150,150,150);
+$offset-card-clr: rgb(175, 175, 175);
 $footer-background-clr: #363438;
 $white: #FFF;
 
@@ -16,7 +20,20 @@ $font-size: (
     btn-txt: 1.4rem,
     price: 1.6rem,
     new: 1.2rem,
-    input: 1.4rem,
+    input: 3.5rem,
     foot-logo: 1.8rem,
     foot-links: 1.4rem
+);
+
+// Box Shadow
+$shadow: (
+    offset-bottom: 0.2rem,
+    offset-right: 0.2rem,
+    offset-blur: 1rem,
+);
+
+// Taille des icones
+$icon-sizes : (
+    default: 0.5rem,
+    map-marker-size: 4rem,
 );
