@@ -30,7 +30,7 @@ body {
   font-size: 2rem;
 }
 .txt--desc {
-  font-size: 1.6rem;
+  font-size: 5rem;
 }
 .txt--card-title {
   font-size: 1.6rem;
@@ -43,6 +43,21 @@ body {
 }
 .txt--foot-logo {
   font-size: 1.8rem;
+}
+.txt--title-desc {
+  font-size: 8rem;
+}
+.txt--btn {
+  font-size: 5rem;
+}
+
+.btn {
+  width: 75%;
+  background: -webkit-radial-gradient(top left, ellipse, #FF79DA, #9356DC);
+  padding: 4rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10rem;
 }
 
 a {
@@ -82,7 +97,7 @@ footer {
 
 .form-ctn {
   width: 100%;
-  height: 10rem;
+  height: 16rem;
   border-top: #969696 0.8rem solid;
   background-color: #bebebe;
   display: flex;
@@ -90,7 +105,7 @@ footer {
   align-items: center;
 }
 .form-ctn__img-ctn {
-  margin-right: 6rem;
+  margin-left: 10rem;
 }
 .form-ctn__img-ctn img {
   width: 4rem;
@@ -98,6 +113,7 @@ footer {
 }
 .form-ctn__form {
   height: 4rem;
+  margin-left: 7rem;
 }
 .form-ctn__form input {
   height: inherit;
@@ -105,10 +121,28 @@ footer {
   border: none;
   font: inherit;
   font-weight: 700;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 .form-ctn__form input :active {
   outline: none;
+}
+
+.pres-ctn__desc-ctn {
+  width: 100%;
+  height: 81.2rem;
+  background-color: #e7e7e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 5rem 0 5rem;
+  text-align: center;
+}
+.pres-ctn__desc-ctn h1 {
+  margin-bottom: 8rem;
+}
+.pres-ctn__desc-ctn p {
+  margin-bottom: 8rem;
 }
 
 /*# sourceMappingURL=style.css.map */

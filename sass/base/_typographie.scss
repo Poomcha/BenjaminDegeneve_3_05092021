@@ -32,5 +32,10 @@
     &--foot-logo {
         @include font-sizes(foot-logo);
     }
-
+    &--title-desc {
+        @include font-sizes(desc-title);
+    }
+    &--btn {
+        @include font-sizes(btn-txt);
+    }
 }

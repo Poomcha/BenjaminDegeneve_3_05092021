@@ -1,17 +1,21 @@
 .form-ctn {
+    // border: red solid 2px;
     width: 100%;
-    height: 10rem;
+    height: 16rem;
     border-top: $border-form-clr 0.8rem solid;
     background-color: $form-background-clr;
     @include flex-centered();
     &__img-ctn {
-        margin-right: 6rem;
+        margin-left: 10rem;
+        // border: green solid 2px;
         img {
             @include sizing-icons(map-get($icon-sizes, map-marker-size));
         }
     }
     &__form {
+        // border: blue solid 2px;
         height: map-get($icon-sizes, map-marker-size);
+        margin-left: 7rem;
         input {
             height: inherit;
             background-color: inherit;
