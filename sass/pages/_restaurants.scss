@@ -1,0 +1,31 @@
+.rest-img-ctn {
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+    &__img {
+    
+    }
+}
+
+.menu-ctn {
+    width: 100%;
+    background-color: $main-background-clr;
+    border-radius: 10rem 10rem 0 0;
+    position: relative;
+    margin-top: -13.5rem;
+    z-index: 2;
+    &--smaller {
+        width: 90%;
+        margin: auto;
+        padding-top: 8rem;
+        h1 {
+            display: inline-block;
+            @include font-sizes(title);
+        }
+        .rest-heart-icon {
+            display: inline-block;
+            @include sizing-icons(map-get($icon-sizes, rest-heart-icon));
+            margin-left: 5rem;
+        }
+    }
+}
