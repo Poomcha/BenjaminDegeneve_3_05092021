@@ -1,0 +1,9 @@
+.small-card {
+    background-color: $white;
+    @include flex-centered();
+    justify-content: space-between;
+    padding: 0 2rem 0 2rem;
+    height: 13rem;
+    @include card-btn-shadow();
+    border-radius: 2.5rem;
+}

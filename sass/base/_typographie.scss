@@ -8,6 +8,8 @@
 
 .txt {
     @include font-sizes();
+
+    // Couleurs
     &--white {
         @include txt-color();
     }
@@ -17,6 +19,8 @@
     &--grey {
         @include txt-color($grey);
     }
+
+    // Font sizes
     &--rest-title {
         @include font-sizes(rest-title);
     }
@@ -56,4 +60,22 @@
     &--foot-links {
         @include font-sizes(foot-links);
     }
+    &--menu-cat {
+        @include font-sizes(menu-cat);
+    }
+    &--menu-card-title {
+        @include font-sizes(menu-card-title);
+    }
+    &--menu-card-desc {
+        @include font-sizes(menu-card-desc);
+    }
+    &--menu-card-price {
+        @include font-sizes(menu-card-price);
+    }
+
+    // Uppercase
+    &--to-upper {
+        @include to-upper();
+    }
 }
+

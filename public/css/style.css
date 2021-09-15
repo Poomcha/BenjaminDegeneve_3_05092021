@@ -69,6 +69,21 @@ body {
 .txt--foot-links {
   font-size: 4rem;
 }
+.txt--menu-cat {
+  font-size: 5rem;
+}
+.txt--menu-card-title {
+  font-size: 4rem;
+}
+.txt--menu-card-desc {
+  font-size: 3rem;
+}
+.txt--menu-card-price {
+  font-size: 3rem;
+}
+.txt--to-upper {
+  text-transform: uppercase;
+}
 
 .btn {
   width: 75%;
@@ -123,6 +138,18 @@ a {
   position: absolute;
   top: 3rem;
   right: 3rem;
+}
+
+.small-card {
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem 0 2rem;
+  height: 13rem;
+  box-shadow: 0rem 1.5rem 1.5rem #bebebe;
+  border-radius: 2.5rem;
 }
 
 .list-card {

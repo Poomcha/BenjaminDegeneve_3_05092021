@@ -24,3 +24,7 @@
     width: $s;
     height: $s;
 };
+
+@mixin to-upper() {
+    text-transform: uppercase;
+}
