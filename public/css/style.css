@@ -81,6 +81,9 @@ body {
 .txt--menu-card-price {
   font-size: 3rem;
 }
+.txt--menu-btn {
+  font-size: 4rem;
+}
 .txt--to-upper {
   text-transform: uppercase;
 }
@@ -150,6 +153,15 @@ a {
   height: 13rem;
   box-shadow: 0rem 1.5rem 1.5rem #bebebe;
   border-radius: 2.5rem;
+  margin-bottom: 3rem;
+}
+.small-card__price-ctn {
+  width: 10rem;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-end;
 }
 
 .list-card {
@@ -328,10 +340,17 @@ footer .foot-ctn .foot-link-txt-ctn {
 }
 
 .rest-img-ctn {
-  max-width: 100%;
+  width: 100%;
+  height: 70rem;
   position: relative;
   z-index: 1;
 }
+.rest-img-ctn__img {
+  height: 70rem;
+  max-width: 100%;
+  object-fit: cover;
+}
+
 .menu-ctn {
   width: 100%;
   background-color: #e7e7e7;
@@ -345,15 +364,42 @@ footer .foot-ctn .foot-link-txt-ctn {
   margin: auto;
   padding-top: 8rem;
 }
-.menu-ctn--smaller h1 {
-  display: inline-block;
+.menu-ctn--smaller .rest-title-ctn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-ctn--smaller .rest-title-ctn h1 {
   font-size: 8rem;
 }
-.menu-ctn--smaller .rest-heart-icon {
-  display: inline-block;
+.menu-ctn--smaller .rest-title-ctn .rest-heart-icon {
   width: 6rem;
   height: 6rem;
-  margin-left: 5rem;
+}
+
+.part-menu-ctn {
+  margin-top: 8rem;
+}
+.part-menu-ctn__title {
+  margin-bottom: 0.5rem;
+}
+.part-menu-ctn__title-underline {
+  height: 1rem;
+  width: 13rem;
+  background-color: #99E2D0;
+  margin-bottom: 3rem;
+}
+
+.btn-ctn {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  padding-bottom: 7.5rem;
+}
+.btn-ctn .btn--rest {
+  width: 60%;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

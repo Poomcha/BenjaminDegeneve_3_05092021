@@ -23,23 +23,146 @@
 
     <body>
         <!-- Conteneur image du restaurant -->
-        <div>
-            <img src="../img/restos/le_delice_des_sens.jpg" alt="Photo du restaurant le délice des sens" width="100%">
+        <div class="rest-img-ctn">
+            <img class="rest-img-ctn__img" src="../img/restos/le_delice_des_sens.jpg" alt="Photo du restaurant le délice des sens" width="100%">
         </div>
 
         <!-- Conteneur du menu -->
-        <section>
-            <!-- Conteneur du titre -->
-            <h1 class="titre">Le délice des sens</h1>
-            <div><img src="" alt="Icone coeur"></div>
-            <!-- Conteneur Entrées -->
-            <div></div>
-            <!-- Conteneur Plats -->
-            <div></div>
-            <!-- Conteneur Desserts -->
-            <div></div>
-            <!-- Bouton commander -->
-            <button type="button">Commander</button>
+        <section class="menu-ctn">
+            <div class="menu-ctn--smaller">
+                <!-- Conteneur du titre -->
+                <div class="rest-title-ctn">
+                    <h1 class="titre">Le délice des sens</h1>
+                    <div class="rest-heart-icon"><img src="../img/icons/heart-regular.svg" alt="Icone coeur"></div>
+                </div>
+                <!-- Conteneur Entrées -->
+                <div class="part-menu-ctn">
+                    <h2 class="txt--to-upper txt--menu-cat part-menu-ctn__title">entrées</h2>
+                    <div class="part-menu-ctn__title-underline"></div>
+                    <!-- Conteneur des cartes -->
+                    <div class="small-card">
+                        <!-- Conteneur texte -->
+                        <div class="small-card__txt-ctn">
+                            <h3 class="txt--menu-card-title">Tartare de thon</h3>
+                            <span class="txt--menu-card-desc">Assaisonné au yuzu</span>
+                        </div>
+                        <!-- Contneur prix -->
+                        <div class="small-card__price-ctn">
+                            <span class="txt--menu-card-price">25€</span>
+                        </div>
+                    </div>
+                    <!-- Conteneur des cartes -->
+                    <div class="small-card">
+                        <!-- Conteneur texte -->
+                        <div>
+                            <h3 class="txt--menu-card-title">Bouché de homard croustillant</h3>
+                            <span class="txt--menu-card-desc">Et sa farandole de petits légumes</span>
+                        </div>
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
+                            <span class="txt--menu-card-price">35€</span>
+                        </div>
+                    </div>
+                    <!-- Conteneur des cartes -->
+                    <div class="small-card">
+                        <!-- Conteneur texte -->
+                        <div>
+                            <h3 class="txt--menu-card-title">Velouté de cèpes</h3>
+                            <span class="txt--menu-card-desc">Aux truffes</span>
+                        </div>
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
+                            <span class="txt--menu-card-price">20€</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Conteneur Plats -->
+                <div class="part-menu-ctn">
+                    <h2 class="txt--to-upper txt--menu-cat part-menu-ctn__title">plats</h2>
+                    <div class="part-menu-ctn__title-underline"></div>
+                    <!-- Conteneur des cartes -->
+                    <div class="small-card">
+                        <!-- Conteneur texte -->
+                        <div>
+                            <h3 class="txt--menu-card-title">Poulet rôti aux herbes de Provence</h3>
+                            <span class="txt--menu-card-desc">Et sa crème de truffe</span>
+                        </div class="small-card__price-ctn">
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
+                            <span class="txt--menu-card-price">40€</span>
+                        </div>
+                    </div>
+                    <!-- Conteneur des cartes -->
+                    <div class="small-card">
+                        <!-- Conteneur texte -->
+                        <div>
+                            <h3 class="txt--menu-card-title">Langouste rôtie</h3>
+                            <span class="txt--menu-card-desc">Et ses légumes de saison</span>
+                        </div>
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
+                            <span class="txt--menu-card-price">35€</span>
+                        </div>
+                    </div>
+                    <!-- Conteneur des cartes -->
+                    <div class="small-card">
+                        <!-- Conteneur texte -->
+                        <div>
+                            <h3 class="txt--menu-card-title">Côte de boeuf Angus</h3>
+                            <span class="txt--menu-card-desc">Et sa purée de panais</span>
+                        </div>
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
+                            <span class="txt--menu-card-price">44€</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Conteneur Desserts -->
+                <div class="part-menu-ctn">
+                    <h2 class="txt--to-upper txt--menu-cat part-menu-ctn__title">desserts</h2>
+                    <div class="part-menu-ctn__title-underline"></div>
+                    <!-- Conteneur des cartes -->
+                    <div class="small-card">
+                        <!-- Conteneur texte -->
+                        <div>
+                            <h3 class="txt--menu-card-title">Farandole de desserts</h3>
+                            <span class="txt--menu-card-desc">Du chef</span>
+                        </div>
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
+                            <span class="txt--menu-card-price">18€</span>
+                        </div>
+                    </div>
+                    <!-- Conteneur des cartes -->
+                    <div class="small-card">
+                        <!-- Conteneur texte -->
+                        <div>
+                            <h3 class="txt--menu-card-title">Crème brulée</h3>
+                            <span class="txt--menu-card-desc">Revisitée</span>
+                        </div>
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
+                            <span class="txt--menu-card-price">22€</span>
+                        </div>
+                    </div>
+                    <!-- Conteneur des cartes -->
+                    <div class="small-card">
+                        <!-- Conteneur texte -->
+                        <div>
+                            <h3 class="txt--menu-card-title">Tiramisu</h3>
+                            <span class="txt--menu-card-desc">À la noisette</span>
+                        </div>
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
+                            <span class="txt--menu-card-price">23€</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bouton commander -->
+                <div class="btn-ctn">
+                    <button type="button" class="btn btn--rest"><span class="txt--white txt--menu-btn">Commander</span></button>
+                </div>
+            </div>
         </section>
     </body>
 

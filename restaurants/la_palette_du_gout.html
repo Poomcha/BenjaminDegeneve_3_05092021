@@ -31,11 +31,14 @@
         <section class="menu-ctn">
             <div class="menu-ctn--smaller">
                 <!-- Conteneur du titre -->
-                <h1 class="titre">La palette du goût</h1>
-                <div class="rest-heart-icon"><img src="../img/icons/heart-regular.svg" alt="Icone coeur"></div>
+                <div class="rest-title-ctn">
+                    <h1 class="titre">La palette du goût</h1>
+                    <div class="rest-heart-icon"><img src="../img/icons/heart-regular.svg" alt="Icone coeur"></div>    
+                </div>
                 <!-- Conteneur Entrées -->
-                <div>
-                    <h2 class="txt--to-upper txt--menu-cat">entrées</h2>
+                <div class="part-menu-ctn">
+                    <h2 class="txt--to-upper txt--menu-cat part-menu-ctn__title">entrées</h2>
+                    <div class="part-menu-ctn__title-underline"></div>
                     <!-- Conteneur des cartes -->
                     <div class="small-card">
                         <!-- Conteneur texte -->
@@ -55,8 +58,8 @@
                             <h3 class="txt--menu-card-title">Foie gras de canard mi-cuit</h3>
                             <span class="txt--menu-card-desc">Et ses copeaux de truffe noire</span>
                         </div>
-                        <!-- Contneur prix -->
-                        <div>
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
                             <span class="txt--menu-card-price">35€</span>
                         </div>
                     </div>
@@ -67,24 +70,25 @@
                             <h3 class="txt--menu-card-title">Oeuf au plat</h3>
                             <span class="txt--menu-card-desc">Assaisonné à la truffe sur lit de caviar</span>
                         </div>
-                        <!-- Contneur prix -->
-                        <div>
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
                             <span class="txt--menu-card-price">20€</span>
                         </div>
                     </div>
                 </div>
                 <!-- Conteneur Plats -->
-                <div>
-                    <h2 class="txt--to-upper txt--menu-cat">plats</h2>
+                <div class="part-menu-ctn">
+                    <h2 class="txt--to-upper txt--menu-cat part-menu-ctn__title">plats</h2>
+                    <div class="part-menu-ctn__title-underline"></div>
                     <!-- Conteneur des cartes -->
                     <div class="small-card">
                         <!-- Conteneur texte -->
                         <div>
                             <h3 class="txt--menu-card-title">Filet de boeuf aux herbes</h3>
                             <span class="txt--menu-card-desc">Accompagné de sa ribambelle de légumes</span>
-                        </div>
-                        <!-- Contneur prix -->
-                        <div>
+                        </div class="small-card__price-ctn">
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
                             <span class="txt--menu-card-price">40€</span>
                         </div>
                     </div>
@@ -95,8 +99,8 @@
                             <h3 class="txt--menu-card-title">Parmentier de queue de boeuf</h3>
                             <span class="txt--menu-card-desc">À la truffe noire sur sa purée de panais</span>
                         </div>
-                        <!-- Contneur prix -->
-                        <div>
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
                             <span class="txt--menu-card-price">35€</span>
                         </div>
                     </div>
@@ -107,15 +111,16 @@
                             <h3 class="txt--menu-card-title">Filet de turbot</h3>
                             <span class="txt--menu-card-desc">Aux agrumes</span>
                         </div>
-                        <!-- Contneur prix -->
-                        <div>
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
                             <span class="txt--menu-card-price">44€</span>
                         </div>
                     </div>
                 </div>
                 <!-- Conteneur Desserts -->
-                <div>
-                    <h2 class="txt--to-upper txt--menu-cat">desserts</h2>
+                <div class="part-menu-ctn">
+                    <h2 class="txt--to-upper txt--menu-cat part-menu-ctn__title">desserts</h2>
+                    <div class="part-menu-ctn__title-underline"></div>
                     <!-- Conteneur des cartes -->
                     <div class="small-card">
                         <!-- Conteneur texte -->
@@ -123,8 +128,8 @@
                             <h3 class="txt--menu-card-title">Paris-Brest</h3>
                             <span class="txt--menu-card-desc">Revisité</span>
                         </div>
-                        <!-- Contneur prix -->
-                        <div>
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
                             <span class="txt--menu-card-price">18€</span>
                         </div>
                     </div>
@@ -135,8 +140,8 @@
                             <h3 class="txt--menu-card-title">Macaron au chocolat d'exception</h3>
                             <span class="txt--menu-card-desc">Et glace à la vanille de MAdagascar</span>
                         </div>
-                        <!-- Contneur prix -->
-                        <div>
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
                             <span class="txt--menu-card-price">22€</span>
                         </div>
                     </div>
@@ -145,16 +150,18 @@
                         <!-- Conteneur texte -->
                         <div>
                             <h3 class="txt--menu-card-title">Mousse au chocolat</h3>
-                            <span class="txt--menu-card-desc">AU piment d'espelette et à la truffe noire</span>
+                            <span class="txt--menu-card-desc">Au piment d'espelette et à la truffe noire</span>
                         </div>
-                        <!-- Contneur prix -->
-                        <div>
+                        <!-- Conteneur prix -->
+                        <div class="small-card__price-ctn">
                             <span class="txt--menu-card-price">23€</span>
                         </div>
                     </div>
                 </div>
                 <!-- Bouton commander -->
-                <button type="button">Commander</button>
+                <div class="btn-ctn">
+                    <button type="button" class="btn btn--rest"><span class="txt--white txt--menu-btn">Commander</span></button>
+                </div>
             </div>
         </section>
     </body>

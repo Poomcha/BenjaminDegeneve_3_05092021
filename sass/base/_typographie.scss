@@ -72,6 +72,9 @@
     &--menu-card-price {
         @include font-sizes(menu-card-price);
     }
+    &--menu-btn {
+        @include font-sizes(menu-btn);
+    }
 
     // Uppercase
     &--to-upper {
