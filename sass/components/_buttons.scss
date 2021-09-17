@@ -5,5 +5,10 @@
     cursor: pointer;
     border: none;
     border-radius: 10rem;
+    opacity: 1;
     @include card-btn-shadow();
+    &:hover {
+        opacity: .7;
+        @include card-btn-shadow($color: $offset-darker);
+    }
 }
