@@ -3,6 +3,7 @@
 @import "./utils/functions";
 @import "./utils/mixins";
 @import "./utils/placeholders";
+@import "./utils/keyframes";
 
 @import "./base/base";
 @import "./base/typographie";
@@ -14,6 +15,8 @@
 @import "./components/small-card";
 @import "./components/list-card";
 
+@import "./layout/loader";
+@import "./layout/page"; 
 @import "./layout/header";
 @import "./layout/footer";
 @import "./layout/form";

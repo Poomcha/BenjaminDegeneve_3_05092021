@@ -55,3 +55,8 @@ $icon-sizes : (
     footer-icons: 3.5rem,
     rest-heart-icon: 6rem,
 );
+
+// Animations 
+$num-bar: 3;
+$anim-dur: 300ms;
+$anim-delay: $anim-dur / (2*$num-bar);

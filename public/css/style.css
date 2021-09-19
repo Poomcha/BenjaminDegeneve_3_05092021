@@ -1,3 +1,32 @@
+@keyframes anim-page {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes anim-logo {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-26.25rem);
+    opacity: 0.2;
+  }
+}
+@keyframes bars {
+  0% {
+    transform: scaleY(0.75);
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 0.8;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -206,6 +235,87 @@ a {
 }
 .list-card h2 {
   margin-left: 7rem;
+}
+
+.loader-ctn {
+  position: absolute;
+  width: 100%;
+  height: 16rem;
+  z-index: -1;
+}
+.loader-ctn__logo-loader {
+  width: 100%;
+  height: inherit;
+}
+.loader-ctn__logo-loader img {
+  position: relative;
+  width: 50%;
+  height: auto;
+  left: 24.5rem;
+  top: 30rem;
+  opacity: 0.8;
+  animation: anim-logo 650ms 2000ms ease-in-out forwards;
+}
+.loader-ctn__loader {
+  position: relative;
+  top: 30rem;
+  width: 10%;
+  height: 7.5rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.loader-ctn__loader .bar {
+  width: 2rem;
+  height: 7.5rem;
+  animation: bars 300ms backwards ease-in-out infinite;
+  animation-direction: alternate;
+}
+.loader-ctn__loader .bar--1 {
+  animation-delay: 50ms;
+}
+.loader-ctn__loader .bar--prim-clr {
+  background-color: #9356DC;
+}
+.loader-ctn__loader .bar--sec-clr {
+  background-color: #99E2D0;
+}
+.loader-ctn__loader .bar--tert-clr {
+  background-color: #FF79DA;
+}
+.loader-ctn__loader .bar--2 {
+  animation-delay: 100ms;
+}
+.loader-ctn__loader .bar--prim-clr {
+  background-color: #9356DC;
+}
+.loader-ctn__loader .bar--sec-clr {
+  background-color: #99E2D0;
+}
+.loader-ctn__loader .bar--tert-clr {
+  background-color: #FF79DA;
+}
+.loader-ctn__loader .bar--3 {
+  animation-delay: 150ms;
+}
+.loader-ctn__loader .bar--prim-clr {
+  background-color: #9356DC;
+}
+.loader-ctn__loader .bar--sec-clr {
+  background-color: #99E2D0;
+}
+.loader-ctn__loader .bar--tert-clr {
+  background-color: #FF79DA;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  opacity: 0;
+  animation: anim-page 350ms 2650ms forwards;
 }
 
 .heading {
