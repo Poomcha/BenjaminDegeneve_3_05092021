@@ -27,6 +27,14 @@
     opacity: 0.8;
   }
 }
+@keyframes heart {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -161,11 +169,38 @@ a {
   justify-content: center;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
-.large-card__img-ctn figcaption .large-card-heart-icon img {
-  width: 5rem;
-  height: 5rem;
-  height: 5rem;
+.large-card__img-ctn figcaption .heart-top-ctn {
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+  position: absolute;
+  left: 67rem;
+  z-index: 2;
+  transition: height 2s;
+  overflow: hidden;
+}
+.large-card__img-ctn figcaption .heart-top-ctn:hover {
+  height: 0rem;
+}
+.large-card__img-ctn figcaption .heart-bot-ctn {
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 67rem;
+  z-index: 1;
+}
+.large-card__img-ctn figcaption .heart {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 0;
 }
 .large-card__new {
   width: 20rem;

@@ -29,3 +29,12 @@
         opacity: 0.8;
     }
 }
+
+@keyframes heart {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
