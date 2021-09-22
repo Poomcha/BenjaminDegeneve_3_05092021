@@ -29,10 +29,10 @@
 }
 @keyframes heart {
   from {
-    transform: translateY(0);
+    background-size: 6rem 0rem;
   }
   to {
-    transform: translateY(-100%);
+    background-size: 6rem 6rem;
   }
 }
 * {
@@ -141,6 +141,27 @@ body {
   box-shadow: 0rem 1.5rem 1.5rem #505050;
 }
 
+.heart-btn {
+  position: absolute;
+  top: 50rem;
+  left: 70rem;
+  cursor: pointer;
+  width: 6rem;
+  height: 6rem;
+  background-color: #FFF;
+  -webkit-mask-image: url("../../img/icons/heart-solid-unfilled.svg");
+}
+.heart-btn .fa-heart {
+  font-size: 6rem;
+  position: relative;
+  right: 0.18rem;
+  bottom: 0.22rem;
+}
+.heart-btn:active > .fa-heart, .heart-btn:focus > .fa-heart {
+  background: linear-gradient(to top, #FF79DA, #9356DC) no-repeat bottom;
+  animation: heart 2000ms ease-out forwards;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -170,37 +191,6 @@ a {
   align-items: center;
   justify-content: space-between;
   position: relative;
-}
-.large-card__img-ctn figcaption .heart-top-ctn {
-  width: 6rem;
-  height: 6rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #FFF;
-  position: absolute;
-  left: 67rem;
-  z-index: 2;
-  transition: height 2s;
-  overflow: hidden;
-}
-.large-card__img-ctn figcaption .heart-top-ctn:hover {
-  height: 0rem;
-}
-.large-card__img-ctn figcaption .heart-bot-ctn {
-  width: 6rem;
-  height: 6rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 67rem;
-  z-index: 1;
-}
-.large-card__img-ctn figcaption .heart {
-  width: 6rem;
-  height: 6rem;
-  border-radius: 0;
 }
 .large-card__new {
   width: 20rem;

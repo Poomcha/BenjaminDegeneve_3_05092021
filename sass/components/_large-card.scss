@@ -20,38 +20,6 @@
             @include flex-centered();
             justify-content: space-between;
             position: relative;
-            .large-card-text-ctn {
-                
-            }
-            .heart-top-ctn {
-                width: 6rem;
-                height: 6rem;
-                @include flex-centered();
-                background-color: $white;
-                position: absolute;
-                left: 67rem;
-                z-index: 2;
-                transition: height 2s;
-                overflow: hidden;
-                &:hover {
-                    // animation: heart 5s ease-in;
-                    // transform-origin: top;
-                    height: 0rem;
-                }
-            }
-            .heart-bot-ctn {
-                width: 6rem;
-                height: 6rem;
-                @include flex-centered();
-                position: absolute;
-                left: 67rem;
-                z-index: 1;
-            }
-            .heart {
-                    width: 6rem;
-                    height: 6rem;
-                    border-radius: 0;
-                }
         }
     }
     &__new {

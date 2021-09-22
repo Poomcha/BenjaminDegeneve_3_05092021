@@ -13,7 +13,7 @@ $list-card-bg-clr: rgb(231, 231, 231);
 $new-text-clr: darken($color-tertiary, 40);
 $grey: rgb(60, 60, 60);
 $white: #FFF;
-$heart-color: -webkit-linear-gradient(to top, $color-secondary, $color-primary);
+$heart-color: linear-gradient(to top, $color-secondary, $color-primary);
 
 // Tailles de police
 $font-size: (

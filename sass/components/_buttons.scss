@@ -13,3 +13,24 @@
         @include card-btn-shadow($color: $offset-darker);
     }
 }
+
+.heart-btn {
+    position: absolute;
+    top: 50rem;
+    left: 70rem;
+    cursor: pointer;
+    width: 6rem;
+    height: 6rem;
+    background-color: $white;
+    -webkit-mask-image: url("../../img/icons/heart-solid-unfilled.svg");
+    .fa-heart {
+        font-size: 6rem;
+        position: relative;
+        right: .18rem;
+        bottom: .22rem;
+    }
+    &:active > .fa-heart, &:focus > .fa-heart {
+        background: $heart-color no-repeat bottom;
+        animation: heart 2000ms ease-out forwards;
+    }
+}
