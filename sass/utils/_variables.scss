@@ -61,3 +61,7 @@ $icon-sizes : (
 $num-bar: 3;
 $anim-dur: 300ms;
 $anim-delay: $anim-dur / (2*$num-bar);
+
+$num-cards: 4;
+$anim-card-dur: 500ms;
+$anim-card-delay: $anim-card-dur;

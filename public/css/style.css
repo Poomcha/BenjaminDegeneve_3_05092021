@@ -35,6 +35,19 @@
     background-size: 6rem 6rem;
   }
 }
+@keyframes menus {
+  0% {
+    transform: translateY(5rem);
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -148,7 +161,8 @@ body {
   cursor: pointer;
   width: 6rem;
   height: 6rem;
-  background-color: #FFF;
+  background-color: white;
+  mask-image: url("../../img/icons/heart-solid-unfilled.svg");
   -webkit-mask-image: url("../../img/icons/heart-solid-unfilled.svg");
 }
 .heart-btn .fa-heart {
@@ -156,10 +170,11 @@ body {
   position: relative;
   right: 0.18rem;
   bottom: 0.22rem;
-}
-.heart-btn:active > .fa-heart, .heart-btn:focus > .fa-heart {
   background: linear-gradient(to top, #FF79DA, #9356DC) no-repeat bottom;
-  animation: heart 2000ms ease-out forwards;
+  background-size: 6rem 0rem;
+}
+.heart-btn:focus > .fa-heart {
+  animation: heart 2000ms ease-out both;
 }
 
 a {
@@ -214,6 +229,19 @@ a {
   box-shadow: 0rem 1.5rem 1.5rem #bebebe;
   border-radius: 2.5rem;
   margin-bottom: 3rem;
+  animation: menus 500ms 500ms ease-in both;
+}
+.small-card--1 {
+  animation-delay: 500ms;
+}
+.small-card--2 {
+  animation-delay: 1000ms;
+}
+.small-card--3 {
+  animation-delay: 1500ms;
+}
+.small-card--4 {
+  animation-delay: 2000ms;
 }
 .small-card__price-ctn {
   width: 10rem;

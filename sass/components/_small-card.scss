@@ -7,6 +7,12 @@
     @include card-btn-shadow();
     border-radius: 2.5rem;
     margin-bottom: 3rem;
+    animation: menus $anim-card-dur $anim-card-delay ease-in both;
+    @for $j from 1 through $num-cards {
+        &--#{$j} {
+            animation-delay: $anim-card-delay * $j;
+        }
+    }
     &__price-ctn {
         width: 10rem;
         height: 65%;
