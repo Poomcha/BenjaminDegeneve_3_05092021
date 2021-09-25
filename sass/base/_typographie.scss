@@ -65,9 +65,11 @@
     }
     &--menu-card-title {
         @include font-sizes(menu-card-title);
+        @include text-clipping();
     }
     &--menu-card-desc {
         @include font-sizes(menu-card-desc);
+        @include text-clipping();
     }
     &--menu-card-price {
         @include font-sizes(menu-card-price);

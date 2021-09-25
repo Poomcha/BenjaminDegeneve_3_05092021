@@ -28,3 +28,10 @@
 @mixin to-upper() {
     text-transform: uppercase;
 }
+
+@mixin text-clipping() {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
