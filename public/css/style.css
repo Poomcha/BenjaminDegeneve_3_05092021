@@ -581,7 +581,7 @@ footer .foot-ctn .foot-link-txt-ctn {
 }
 .rest-img-ctn__img {
   height: 70rem;
-  max-width: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
