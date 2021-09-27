@@ -1,21 +1,32 @@
 .form-ctn {
-    // border: red solid 2px;
     width: 100%;
     height: 16rem;
     border-top: 0.8rem solid $border-form-clr;
     background-color: $form-background-clr;
     @include flex-centered();
+    @media screen and (min-width: $breakpoint-laptop) {
+        height: 4rem;
+        border-top: 0.2rem solid $border-form-clr;
+    }
     &__img-ctn {
         margin-left: 10rem;
-        // border: green solid 2px;
+        @media screen and (min-width: $breakpoint-laptop) {
+            margin-left: 5rem;
+        }
         img {
             @include sizing-icons(map-get($icon-sizes, map-marker-size));
+            @media screen and (min-width: $breakpoint-laptop) {
+                @include sizing-icons(map-get($icon-sizes, map-marker-size-laptop));
+            }
         }
     }
     &__form {
-        // border: blue solid 2px;
         height: map-get($icon-sizes, map-marker-size);
         margin-left: 7rem;
+        @media screen and (min-width: $breakpoint-laptop) {
+            height: map-get($icon-sizes, map-marker-size-laptop);
+            margin-left: 4rem;
+        }
         input {
             height: inherit;
             background-color: inherit;
@@ -23,6 +34,9 @@
             font: inherit;
             font-weight: 700;
             font-size: map-get($font-size, input);
+            @media screen and (min-width: $breakpoint-laptop) {
+                font-size: map-get($font-size, input-laptop);
+            }
             :active {
                 outline: none;
             }

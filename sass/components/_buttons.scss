@@ -11,19 +11,41 @@
     &:hover {
         opacity: .8;
         @include card-btn-shadow($color: $offset-darker);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include card-btn-shadow(map-get($shadow, offset-bottom-laptop),
+                                 map-get($shadow, offset-right-laptop), 
+                                 map-get($shadow, offset-blur-laptop),
+                                 map-get($shadow, spread-laptop),
+                                 $color: $offset-darker);
+        }
+    }
+    @media screen and (min-width: $breakpoint-laptop) {
+        width: 18%;
+        max-width: 20rem;
+        padding: 1rem;
+        @include card-btn-shadow(map-get($shadow, offset-bottom-laptop),
+                                 map-get($shadow, offset-right-laptop), 
+                                 map-get($shadow, offset-blur-laptop),
+                                 map-get($shadow, spread-laptop));
     }
 }
 
 .heart-btn {
     position: absolute;
-    top: 50rem;
-    left: 70rem;
+    bottom: 4rem;
+    right: 4rem;
     cursor: pointer;
     width: 6rem;
     height: 6rem;
     background-color: $white;
     mask-image: url("../../img/icons/heart-solid-unfilled.svg");
     -webkit-mask-image: url("../../img/icons/heart-solid-unfilled.svg");
+    @media screen and (min-width: $breakpoint-laptop) {
+        bottom: 2.25rem;
+        right: 1rem;
+        width: 3rem;
+        height: 3rem;
+    }
     .fa-heart {
         font-size: 6rem;
         position: relative;
@@ -31,6 +53,12 @@
         bottom: .22rem;
         background: $heart-color no-repeat bottom;
         background-size: 6rem 0rem;
+        @media screen and (min-width: $breakpoint-laptop) {
+            font-size: 3rem;
+            right: 0.22rem;
+            bottom: 0.19rem;
+            // background-size: 1.5rem 0rem;
+        }
     }
     &:focus > .fa-heart {
         animation: heart 2000ms ease-out both;

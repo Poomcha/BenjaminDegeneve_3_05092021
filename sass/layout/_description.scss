@@ -7,11 +7,15 @@
         flex-direction: column;
         padding: 0 5rem 0 5rem;
         text-align: center;
-        h1 {
-            margin-bottom: 8rem;
+        @media screen and (min-width: $breakpoint-laptop) {
+            height: 12rem;
+            padding: 0;
         }
-        p {
+        h1, p {
             margin-bottom: 8rem;
+            @media screen and (min-width: $breakpoint-laptop) {
+                margin-bottom: 1rem;
+            }
         }
     }
 }

@@ -96,41 +96,106 @@ body {
 .txt--rest-title {
   font-size: 3rem;
 }
+@media screen and (min-width: 1023px) {
+  .txt--rest-title {
+    font-size: 0.75rem;
+  }
+}
 .txt--title {
   font-size: 8rem;
+}
+@media screen and (min-width: 1023px) {
+  .txt--title {
+    font-size: 2.5rem;
+  }
 }
 .txt--desc {
   font-size: 5rem;
 }
+@media screen and (min-width: 1023px) {
+  .txt--desc {
+    font-size: 1.25rem;
+  }
+}
 .txt--card-title {
   font-size: 5rem;
+}
+@media screen and (min-width: 1023px) {
+  .txt--card-title {
+    font-size: 2rem;
+  }
 }
 .txt--price {
   font-size: 1.6rem;
 }
+@media screen and (min-width: 1023px) {
+  .txt--price {
+    font-size: 0.4rem;
+  }
+}
 .txt--new {
   font-size: 4rem;
+}
+@media screen and (min-width: 1023px) {
+  .txt--new {
+    font-size: 1.25rem;
+  }
 }
 .txt--foot-logo {
   font-size: 5rem;
 }
+@media screen and (min-width: 1023px) {
+  .txt--foot-logo {
+    font-size: 1.75rem;
+  }
+}
 .txt--title-desc {
   font-size: 8rem;
+}
+@media screen and (min-width: 1023px) {
+  .txt--title-desc {
+    font-size: 2.5rem;
+  }
 }
 .txt--btn {
   font-size: 5rem;
 }
+@media screen and (min-width: 1023px) {
+  .txt--btn {
+    font-size: 1.25rem;
+  }
+}
 .txt--list-card-num {
   font-size: 3rem;
+}
+@media screen and (min-width: 1023px) {
+  .txt--list-card-num {
+    font-size: 0.875rem;
+  }
 }
 .txt--list-card-title {
   font-size: 3.5rem;
 }
+@media screen and (min-width: 1023px) {
+  .txt--list-card-title {
+    font-size: 1.25rem;
+  }
+}
 .txt--card-desc {
   font-size: 4rem;
 }
+@media screen and (min-width: 1023px) {
+  .txt--card-desc {
+    font-size: 1.25rem;
+  }
+}
 .txt--foot-links {
   font-size: 4rem;
+}
+@media screen and (min-width: 1023px) {
+  .txt--foot-links {
+    font-size: 1.25rem;
+  }
 }
 .txt--menu-cat {
   font-size: 5rem;
@@ -174,17 +239,38 @@ body {
   opacity: 0.8;
   box-shadow: 0rem 1.5rem 1.5rem #505050;
 }
+@media screen and (min-width: 1023px) {
+  .btn:hover {
+    box-shadow: 0rem 0.3rem 0.3rem #505050;
+  }
+}
+@media screen and (min-width: 1023px) {
+  .btn {
+    width: 18%;
+    max-width: 20rem;
+    padding: 1rem;
+    box-shadow: 0rem 0.3rem 0.3rem #bebebe;
+  }
+}
 
 .heart-btn {
   position: absolute;
-  top: 50rem;
-  left: 70rem;
+  bottom: 4rem;
+  right: 4rem;
   cursor: pointer;
   width: 6rem;
   height: 6rem;
   background-color: #FFF;
   mask-image: url("../../img/icons/heart-solid-unfilled.svg");
   -webkit-mask-image: url("../../img/icons/heart-solid-unfilled.svg");
+}
+@media screen and (min-width: 1023px) {
+  .heart-btn {
+    bottom: 2.25rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+  }
 }
 .heart-btn .fa-heart {
   font-size: 6rem;
@@ -193,6 +279,13 @@ body {
   bottom: 0.22rem;
   background: linear-gradient(to top, #FF79DA, #9356DC) no-repeat bottom;
   background-size: 6rem 0rem;
+}
+@media screen and (min-width: 1023px) {
+  .heart-btn .fa-heart {
+    font-size: 3rem;
+    right: 0.22rem;
+    bottom: 0.19rem;
+  }
 }
 .heart-btn:focus > .fa-heart {
   animation: heart 2000ms ease-out both;
@@ -212,11 +305,26 @@ a {
   position: relative;
   box-shadow: 0rem 1.5rem 1.5rem #bebebe;
 }
+@media screen and (min-width: 1023px) {
+  .large-card {
+    width: 40%;
+    height: 30rem;
+    border-radius: 0.75rem;
+    box-shadow: 0rem 0.3rem 0.3rem #bebebe;
+    margin-top: 8rem;
+  }
+}
 .large-card__img-ctn img {
   width: 100%;
   height: 45rem;
   object-fit: cover;
   border-radius: 3rem 3rem 0 0;
+}
+@media screen and (min-width: 1023px) {
+  .large-card__img-ctn img {
+    height: 22rem;
+    border-radius: 0.75rem 0.75rem 0 0;
+  }
 }
 .large-card__img-ctn figcaption {
   width: 90%;
@@ -228,6 +336,11 @@ a {
   justify-content: space-between;
   position: relative;
 }
+@media screen and (min-width: 1023px) {
+  .large-card__img-ctn figcaption {
+    height: 8rem;
+  }
+}
 .large-card__new {
   width: 20rem;
   background-color: #99E2D0;
@@ -237,6 +350,15 @@ a {
   position: absolute;
   top: 3rem;
   right: 3rem;
+}
+@media screen and (min-width: 1023px) {
+  .large-card__new {
+    width: 8rem;
+    padding: 0.4rem 0 0.4rem 0;
+    border-radius: 0.25rem;
+    top: 0.75rem;
+    right: 0.75rem;
+  }
 }
 
 .small-card-ctn {
@@ -333,6 +455,15 @@ a {
   position: relative;
   box-shadow: 0rem 1.5rem 1.5rem #bebebe;
 }
+@media screen and (min-width: 1023px) {
+  .list-card {
+    width: 25%;
+    max-width: 25rem;
+    height: 4rem;
+    border-radius: 1.25rem;
+    box-shadow: 0rem 0.3rem 0.3rem #bebebe;
+  }
+}
 .list-card__num-ctn {
   background-color: #9356DC;
   width: 5rem;
@@ -346,16 +477,44 @@ a {
 .list-card__num-ctn span {
   margin: auto;
 }
+@media screen and (min-width: 1023px) {
+  .list-card__num-ctn {
+    width: 1.5rem;
+    height: 1.5rem;
+    left: -0.5rem;
+    top: 33%;
+  }
+}
 .list-card__img-ctn {
   margin-left: 7rem;
   margin-top: 1rem;
+}
+@media screen and (min-width: 1023px) {
+  .list-card__img-ctn {
+    margin-left: 2rem;
+    margin-top: 0.25rem;
+  }
 }
 .list-card__img-ctn img {
   width: 4rem;
   height: 4rem;
 }
+@media screen and (min-width: 1023px) {
+  .list-card__img-ctn img {
+    width: 2rem;
+    height: 2rem;
+  }
+}
 .list-card h2 {
   margin-left: 7rem;
+}
+@media screen and (min-width: 1023px) {
+  .list-card h2 {
+    margin-left: 3rem;
+  }
+}
+.list-card--lighten-primary {
+  background: #f2eafb;
 }
 
 .loader-ctn {
@@ -377,10 +536,15 @@ a {
   opacity: 0.6;
   animation: anim-logo 650ms 2000ms ease-in-out forwards;
 }
+@media screen and (min-width: 1023px) {
+  .loader-ctn__logo-loader img {
+    max-height: 5rem;
+  }
+}
 .loader-ctn__loader {
   position: relative;
   top: 30rem;
-  width: 10%;
+  width: 10rem;
   height: 7.5rem;
   margin: auto;
   display: flex;
@@ -437,12 +601,18 @@ a {
   overflow: hidden;
   opacity: 0;
   animation: anim-page 350ms 2650ms forwards;
+  background-color: #FFF;
 }
 
 .heading {
   display: flex;
   height: 16rem;
   position: relative;
+}
+@media screen and (min-width: 1023px) {
+  .heading {
+    height: 8rem;
+  }
 }
 .heading__logo-ctn {
   width: 100%;
@@ -454,15 +624,30 @@ a {
   width: 50%;
   max-height: 14rem;
 }
+@media screen and (min-width: 1023px) {
+  .heading__logo-ctn img {
+    max-height: 5rem;
+  }
+}
 .heading__arrow-ctn {
   width: 4rem;
   position: absolute;
   top: 5.5rem;
   left: 8rem;
 }
+@media screen and (min-width: 1023px) {
+  .heading__arrow-ctn {
+    top: 25%;
+  }
+}
 .heading__arrow-ctn img {
   width: 100%;
   height: auto;
+}
+@media screen and (min-width: 1023px) {
+  .heading__arrow-ctn img {
+    max-height: 4rem;
+  }
 }
 
 footer {
@@ -473,12 +658,27 @@ footer .foot-ctn {
   margin: auto;
   padding: 5rem 0 8rem 0;
 }
+@media screen and (min-width: 1023px) {
+  footer .foot-ctn {
+    padding: 1.25rem 0 2rem 0;
+  }
+}
 footer .foot-ctn h1 {
   margin-bottom: 5rem;
+}
+@media screen and (min-width: 1023px) {
+  footer .foot-ctn h1 {
+    margin-bottom: 1.5rem;
+  }
 }
 footer .foot-ctn li {
   list-style-type: none;
   margin-bottom: 2rem;
+}
+@media screen and (min-width: 1023px) {
+  footer .foot-ctn li {
+    margin-bottom: 0.5rem;
+  }
 }
 footer .foot-ctn li a {
   display: flex;
@@ -487,8 +687,19 @@ footer .foot-ctn .foot-icon {
   width: 3.5rem;
   height: 3.5rem;
 }
+@media screen and (min-width: 1023px) {
+  footer .foot-ctn .foot-icon {
+    width: 0.875rem;
+    height: 0.875rem;
+  }
+}
 footer .foot-ctn .foot-link-txt-ctn {
   margin-left: 3rem;
+}
+@media screen and (min-width: 1023px) {
+  footer .foot-ctn .foot-link-txt-ctn {
+    margin-left: 0.75rem;
+  }
 }
 
 .form-ctn {
@@ -500,16 +711,39 @@ footer .foot-ctn .foot-link-txt-ctn {
   justify-content: center;
   align-items: center;
 }
+@media screen and (min-width: 1023px) {
+  .form-ctn {
+    height: 4rem;
+    border-top: 0.2rem solid #969696;
+  }
+}
 .form-ctn__img-ctn {
   margin-left: 10rem;
+}
+@media screen and (min-width: 1023px) {
+  .form-ctn__img-ctn {
+    margin-left: 5rem;
+  }
 }
 .form-ctn__img-ctn img {
   width: 4rem;
   height: 4rem;
 }
+@media screen and (min-width: 1023px) {
+  .form-ctn__img-ctn img {
+    width: 2rem;
+    height: 2rem;
+  }
+}
 .form-ctn__form {
   height: 4rem;
   margin-left: 7rem;
+}
+@media screen and (min-width: 1023px) {
+  .form-ctn__form {
+    height: 2rem;
+    margin-left: 4rem;
+  }
 }
 .form-ctn__form input {
   height: inherit;
@@ -518,6 +752,11 @@ footer .foot-ctn .foot-link-txt-ctn {
   font: inherit;
   font-weight: 700;
   font-size: 4.5rem;
+}
+@media screen and (min-width: 1023px) {
+  .form-ctn__form input {
+    font-size: 2rem;
+  }
 }
 .form-ctn__form input :active {
   outline: none;
@@ -534,11 +773,19 @@ footer .foot-ctn .foot-link-txt-ctn {
   padding: 0 5rem 0 5rem;
   text-align: center;
 }
-.pres-ctn__desc-ctn h1 {
+@media screen and (min-width: 1023px) {
+  .pres-ctn__desc-ctn {
+    height: 12rem;
+    padding: 0;
+  }
+}
+.pres-ctn__desc-ctn h1, .pres-ctn__desc-ctn p {
   margin-bottom: 8rem;
 }
-.pres-ctn__desc-ctn p {
-  margin-bottom: 8rem;
+@media screen and (min-width: 1023px) {
+  .pres-ctn__desc-ctn h1, .pres-ctn__desc-ctn p {
+    margin-bottom: 1rem;
+  }
 }
 
 .fctnmnt {
@@ -546,14 +793,31 @@ footer .foot-ctn .foot-link-txt-ctn {
   height: 81.2rem;
   margin: auto;
 }
+@media screen and (min-width: 1023px) {
+  .fctnmnt {
+    height: auto;
+  }
+}
 .fctnmnt h1 {
   margin: 12rem 0 6rem 0;
+}
+@media screen and (min-width: 1023px) {
+  .fctnmnt h1 {
+    margin: 3rem 0 0 0;
+  }
 }
 .fctnmnt .list-cards-ctn {
   height: 57.2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+@media screen and (min-width: 1023px) {
+  .fctnmnt .list-cards-ctn {
+    height: auto;
+    flex-direction: row;
+    margin-top: 8rem;
+  }
 }
 
 .rest-ctn {
@@ -562,6 +826,11 @@ footer .foot-ctn .foot-link-txt-ctn {
   width: 100%;
   background-color: #e7e7e7;
 }
+@media screen and (min-width: 1023px) {
+  .rest-ctn {
+    background-color: #FFF;
+  }
+}
 .rest-ctn--centered {
   width: 90%;
   margin: auto;
@@ -569,11 +838,23 @@ footer .foot-ctn .foot-link-txt-ctn {
 .rest-ctn--centered h1 {
   padding: 12rem 0 6rem 0;
 }
+@media screen and (min-width: 1023px) {
+  .rest-ctn--centered h1 {
+    padding: 3rem 0 0 0;
+  }
+}
 .rest-ctn--centered .large-cards-ctn {
   height: 260rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+@media screen and (min-width: 1023px) {
+  .rest-ctn--centered .large-cards-ctn {
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .rest-img-ctn {

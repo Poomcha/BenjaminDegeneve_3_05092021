@@ -23,42 +23,81 @@
     // Font sizes
     &--rest-title {
         @include font-sizes(rest-title);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(rest-title-laptop);
+        }
     }
     &--title {
         @include font-sizes(title);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(title-laptop);
+        }
     }
     &--desc {
         @include font-sizes(desc);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(desc-laptop);
+        }
     }
     &--card-title {
         @include font-sizes(card-title);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(card-title-laptop);
+        }
     }
     &--price {
         @include font-sizes(price);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(price-laptop);
+        }
     }
     &--new {
         @include font-sizes(new);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(new-laptop);
+        }
     }
     &--foot-logo {
         @include font-sizes(foot-logo);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(foot-logo-laptop);
+        }
     }
     &--title-desc {
         @include font-sizes(desc-title);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(desc-title-laptop);
+        }
     }
     &--btn {
         @include font-sizes(btn-txt);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(btn-txt-laptop);
+        }
     }
     &--list-card-num {
         @include font-sizes(list-card-num);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(list-card-num-laptop);
+        }
     }
     &--list-card-title {
         @include font-sizes(list-card-titre);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(list-card-titre-laptop);
+        }
     }
     &--card-desc {
         @include font-sizes(card-desc);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(card-desc-laptop);
+        }
     }
     &--foot-links {
         @include font-sizes(foot-links);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(foot-links-laptop);
+        }
     }
     &--menu-cat {
         @include font-sizes(menu-cat);

@@ -2,13 +2,24 @@
     width: 90%;
     height: 81.2rem;
     margin: auto;
+    @media screen and (min-width: $breakpoint-laptop) {
+        height: auto;
+    }
     h1 {
         margin: 12rem 0 6rem 0;
+        @media screen and (min-width: $breakpoint-laptop) {
+            margin: 3rem 0 0 0;
+        }
     }
     .list-cards-ctn {
         height: 57.2rem;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        @media screen and (min-width: $breakpoint-laptop) {
+            height: auto;
+            flex-direction: row;
+            margin-top: 8rem;
+        }
     }
 }

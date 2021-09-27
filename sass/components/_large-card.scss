@@ -6,12 +6,26 @@
     border-radius: 3rem;
     position: relative;
     @include card-btn-shadow();
+    @media screen and (min-width: $breakpoint-laptop) {
+        width: 40%;
+        height: 30rem;
+        border-radius: 0.75rem;
+        @include card-btn-shadow(map-get($shadow, offset-bottom-laptop),
+                                 map-get($shadow, offset-right-laptop), 
+                                 map-get($shadow, offset-blur-laptop),
+                                 map-get($shadow, spread-laptop));
+        margin-top: 8rem;
+    }
     &__img-ctn {
         img {
             width: 100%;
             height: 45rem;
             object-fit: cover;
             border-radius: 3rem 3rem 0 0;
+            @media screen and (min-width: $breakpoint-laptop) {
+                height: 22rem;
+                border-radius: 0.75rem 0.75rem 0 0;
+            }
         }
         figcaption {
             width: 90%;
@@ -20,6 +34,9 @@
             @include flex-centered();
             justify-content: space-between;
             position: relative;
+            @media screen and (min-width: $breakpoint-laptop) {
+                height: 8rem;
+            }
         }
     }
     &__new {
@@ -31,6 +48,13 @@
         position: absolute;
         top: 3rem;
         right: 3rem;
+        @media screen and (min-width: $breakpoint-laptop) {
+            width: 8rem;
+            padding: .4rem 0 .4rem 0;
+            border-radius: .25rem;
+            top: .75rem;
+            right: .75rem;
+        }
     }
 
 }

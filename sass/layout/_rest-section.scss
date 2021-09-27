@@ -3,17 +3,28 @@
     padding-bottom: 12rem;
     width: 100%;
     background-color: $main-background-clr;
+    @media screen and (min-width: $breakpoint-laptop) {
+        background-color: $white;
+    }
     &--centered {
         width: 90%;
         margin: auto;
         h1 {
             padding: 12rem 0 6rem 0;
+            @media screen and (min-width: $breakpoint-laptop) {
+                padding: 3rem 0 0 0;
+            }
         }
         .large-cards-ctn {
             height: 260rem;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            @media screen and (min-width: $breakpoint-laptop) {
+                height: auto;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
         }
     }
 }

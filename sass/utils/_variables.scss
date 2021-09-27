@@ -1,5 +1,6 @@
 // Couleurs
 $color-primary: #9356DC;
+$lighten-color-primary: lighten($color-primary, 35);
 $color-secondary: #FF79DA;
 $color-tertiary: #99E2D0;
 $main-background-clr: rgb(231, 231, 231);
@@ -19,41 +20,67 @@ $heart-color: linear-gradient(to top, $color-secondary, $color-primary);
 $font-size: (
     base: 4rem,
     rest-title: 3rem,
+    rest-title-laptop: 0.75rem,
     title: 8rem,
+    title-laptop: 2.5rem,
     desc: 5rem,
+    desc-laptop: 1.25rem,
     card-title: 5rem,
+    card-title-laptop: 2rem,
     card-desc: 4rem,
+    card-desc-laptop: 1.25rem,
     btn-txt: 5rem,
+    btn-txt-laptop: 1.25rem,
     price: 1.6rem,
+    price-laptop: 0.4rem,
     new: 4rem,
+    new-laptop: 1.25rem,
     input: 4.5rem,
+    input-laptop: 2rem,
     foot-logo: 5rem,
+    foot-logo-laptop: 1.75rem,
     foot-links: 4rem,
+    foot-links-laptop: 1.25rem,
     desc-title: 8rem,
+    desc-title-laptop: 2.5rem,
     list-card-num: 3rem,
+    list-card-num-laptop: 0.875rem,
     list-card-titre: 3.5rem,
+    list-card-titre-laptop: 1.25rem,
     menu-cat: 5rem,
+    menu-cat-laptop: 1.25rem,
     menu-card-title: 4rem,
+    menu-card-title-laptop: 1rem,
     menu-card-desc: 3rem,
+    menu-card-desc-laptop: 0.75rem,
     menu-card-price: 3rem,
+    menu-card-price-laptop: 0.75rem,
     menu-btn: 4rem,
+    menu-btn-laptop: 1rem,
 );
 
 // Box Shadow
 $shadow: (
     offset-bottom: 0rem,
+    offset-bottom-laptop: 0rem,
     offset-right: 1.5rem,
+    offset-right-laptop: 0.3rem,
     offset-blur: 1.5rem,
+    offset-blur-laptop: 0.3rem,
     spread: 0.05rem,
+    spread-laptop: 0.05rem,
 );
 
 // Taille des icones
 $icon-sizes : (
     default: 0.5rem,
     map-marker-size: 4rem,
+    map-marker-size-laptop: 2rem,
     list-card-icons: 4rem,
+    list-card-icons-laptop: 2rem, 
     large-card-heart-icon: 5rem,
     footer-icons: 3.5rem,
+    footer-icons-laptop: 0.875rem,
     rest-heart-icon: 6rem,
 );
 
@@ -65,3 +92,6 @@ $anim-delay: $anim-dur / (2*$num-bar);
 $num-cards: 4;
 $anim-card-dur: 500ms;
 $anim-card-delay: $anim-card-dur;
+
+// Media queries
+$breakpoint-laptop: 1023px;
