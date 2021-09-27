@@ -9,10 +9,10 @@
         img {
             position: relative;
             width: 50%;
-            height: auto;
-            left: 24.5rem;
+            max-height: 14rem;
+            left: 25%;
             top: 30rem;
-            opacity: 0.8;
+            opacity: 0.6;
             animation: anim-logo 650ms 2000ms ease-in-out forwards;
         }
     }

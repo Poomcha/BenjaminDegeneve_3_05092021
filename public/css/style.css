@@ -7,12 +7,15 @@
   }
 }
 @keyframes anim-logo {
-  from {
+  0% {
     transform: translateY(0);
   }
-  to {
+  95% {
+    opacity: 0.1;
+  }
+  100% {
     transform: translateY(-26.25rem);
-    opacity: 0.2;
+    opacity: 0;
   }
 }
 @keyframes bars {
@@ -368,10 +371,10 @@ a {
 .loader-ctn__logo-loader img {
   position: relative;
   width: 50%;
-  height: auto;
-  left: 24.5rem;
+  max-height: 14rem;
+  left: 25%;
   top: 30rem;
-  opacity: 0.8;
+  opacity: 0.6;
   animation: anim-logo 650ms 2000ms ease-in-out forwards;
 }
 .loader-ctn__loader {
@@ -449,7 +452,7 @@ a {
 }
 .heading__logo-ctn img {
   width: 50%;
-  height: auto;
+  max-height: 14rem;
 }
 .heading__arrow-ctn {
   width: 4rem;
