@@ -106,7 +106,7 @@ body {
 }
 @media screen and (min-width: 1023px) {
   .txt--title {
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
 }
 .txt--desc {
@@ -114,7 +114,7 @@ body {
 }
 @media screen and (min-width: 1023px) {
   .txt--desc {
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
 }
 .txt--card-title {
@@ -146,7 +146,7 @@ body {
 }
 @media screen and (min-width: 1023px) {
   .txt--foot-logo {
-    font-size: 1.75rem;
+    font-size: 2.5rem;
   }
 }
 .txt--title-desc {
@@ -154,7 +154,7 @@ body {
 }
 @media screen and (min-width: 1023px) {
   .txt--title-desc {
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
 }
 .txt--btn {
@@ -162,7 +162,7 @@ body {
 }
 @media screen and (min-width: 1023px) {
   .txt--btn {
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
 }
 .txt--list-card-num {
@@ -170,7 +170,7 @@ body {
 }
 @media screen and (min-width: 1023px) {
   .txt--list-card-num {
-    font-size: 0.875rem;
+    font-size: 1.25rem;
   }
 }
 .txt--list-card-title {
@@ -178,7 +178,7 @@ body {
 }
 @media screen and (min-width: 1023px) {
   .txt--list-card-title {
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
 }
 .txt--card-desc {
@@ -186,7 +186,7 @@ body {
 }
 @media screen and (min-width: 1023px) {
   .txt--card-desc {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }
 .txt--foot-links {
@@ -194,11 +194,16 @@ body {
 }
 @media screen and (min-width: 1023px) {
   .txt--foot-links {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }
 .txt--menu-cat {
   font-size: 5rem;
+}
+@media screen and (min-width: 1023px) {
+  .txt--menu-cat {
+    font-size: 2.5rem;
+  }
 }
 .txt--menu-card-title {
   font-size: 4rem;
@@ -207,6 +212,11 @@ body {
   text-overflow: ellipsis;
   display: block;
 }
+@media screen and (min-width: 1023px) {
+  .txt--menu-card-title {
+    font-size: 2rem;
+  }
+}
 .txt--menu-card-desc {
   font-size: 3rem;
   white-space: nowrap;
@@ -214,11 +224,26 @@ body {
   text-overflow: ellipsis;
   display: block;
 }
+@media screen and (min-width: 1023px) {
+  .txt--menu-card-desc {
+    font-size: 1.5rem;
+  }
+}
 .txt--menu-card-price {
   font-size: 3rem;
 }
+@media screen and (min-width: 1023px) {
+  .txt--menu-card-price {
+    font-size: 1.5rem;
+  }
+}
 .txt--menu-btn {
   font-size: 4rem;
+}
+@media screen and (min-width: 1023px) {
+  .txt--menu-btn {
+    font-size: 2rem;
+  }
 }
 .txt--to-upper {
   text-transform: uppercase;
@@ -246,8 +271,8 @@ body {
 }
 @media screen and (min-width: 1023px) {
   .btn {
-    width: 18%;
-    max-width: 20rem;
+    width: 25%;
+    max-width: 30rem;
     padding: 1rem;
     box-shadow: 0rem 0.3rem 0.3rem #bebebe;
   }
@@ -382,6 +407,12 @@ a {
 .small-card-ctn--4 {
   animation-delay: 2000ms;
 }
+@media screen and (min-width: 1023px) {
+  .small-card-ctn {
+    box-shadow: 0rem 0.3rem 0.3rem #bebebe;
+    border-radius: 1.25rem;
+  }
+}
 .small-card-ctn__anim-ctn {
   position: absolute;
   top: 0;
@@ -392,6 +423,12 @@ a {
   background-color: #99E2D0;
   overflow: hidden;
   transition: width 400ms ease-out;
+}
+@media screen and (min-width: 1023px) {
+  .small-card-ctn__anim-ctn {
+    height: 6.5rem;
+    border-radius: 0 1.25rem 1.25rem 0;
+  }
 }
 .small-card-ctn__anim-ctn__check {
   position: relative;
@@ -404,6 +441,15 @@ a {
   transform: rotate(0deg);
   transition: transform 400ms ease-out;
 }
+@media screen and (min-width: 1023px) {
+  .small-card-ctn__anim-ctn__check {
+    top: 28%;
+    margin-left: 1.75rem;
+    min-height: 3rem;
+    min-width: 3rem;
+    max-width: 3rem;
+  }
+}
 .small-card-ctn .small-card {
   position: relative;
   max-width: 100%;
@@ -414,6 +460,13 @@ a {
   justify-content: space-between;
   border-radius: 2.5rem;
   margin-bottom: 3rem;
+}
+@media screen and (min-width: 1023px) {
+  .small-card-ctn .small-card {
+    height: 6.5rem;
+    border-radius: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
 }
 .small-card-ctn .small-card__txt-ctn {
   margin-left: 2rem;
@@ -435,8 +488,18 @@ a {
 .small-card-ctn:hover .small-card__price-ctn {
   margin-right: 13rem;
 }
+@media screen and (min-width: 1023px) {
+  .small-card-ctn:hover .small-card__price-ctn {
+    margin-right: 6.5rem;
+  }
+}
 .small-card-ctn:hover .small-card-ctn__anim-ctn {
   width: 13rem;
+}
+@media screen and (min-width: 1023px) {
+  .small-card-ctn:hover .small-card-ctn__anim-ctn {
+    width: 6.5rem;
+  }
 }
 .small-card-ctn:hover .small-card-ctn__anim-ctn__check {
   transform: rotate(-360deg);
@@ -457,9 +520,9 @@ a {
 }
 @media screen and (min-width: 1023px) {
   .list-card {
-    width: 25%;
-    max-width: 25rem;
-    height: 4rem;
+    width: 30%;
+    max-width: 30rem;
+    height: 8rem;
     border-radius: 1.25rem;
     box-shadow: 0rem 0.3rem 0.3rem #bebebe;
   }
@@ -479,9 +542,9 @@ a {
 }
 @media screen and (min-width: 1023px) {
   .list-card__num-ctn {
-    width: 1.5rem;
-    height: 1.5rem;
-    left: -0.5rem;
+    width: 3rem;
+    height: 3rem;
+    left: -1.5rem;
     top: 33%;
   }
 }
@@ -491,7 +554,7 @@ a {
 }
 @media screen and (min-width: 1023px) {
   .list-card__img-ctn {
-    margin-left: 2rem;
+    margin-left: 3.5rem;
     margin-top: 0.25rem;
   }
 }
@@ -510,7 +573,7 @@ a {
 }
 @media screen and (min-width: 1023px) {
   .list-card h2 {
-    margin-left: 3rem;
+    margin: auto 2rem auto 2.5rem;
   }
 }
 .list-card--lighten-primary {
@@ -689,8 +752,8 @@ footer .foot-ctn .foot-icon {
 }
 @media screen and (min-width: 1023px) {
   footer .foot-ctn .foot-icon {
-    width: 0.875rem;
-    height: 0.875rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }
 footer .foot-ctn .foot-link-txt-ctn {
@@ -775,7 +838,7 @@ footer .foot-ctn .foot-link-txt-ctn {
 }
 @media screen and (min-width: 1023px) {
   .pres-ctn__desc-ctn {
-    height: 12rem;
+    height: 18rem;
     padding: 0;
   }
 }
@@ -857,16 +920,38 @@ footer .foot-ctn .foot-link-txt-ctn {
   }
 }
 
+@media screen and (min-width: 1023px) {
+  .flex-laptop {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
 .rest-img-ctn {
   width: 100%;
   height: 70rem;
   position: relative;
   z-index: 1;
 }
+@media screen and (min-width: 1023px) {
+  .rest-img-ctn {
+    width: 40%;
+    height: 100vh;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+}
 .rest-img-ctn__img {
   height: 70rem;
   width: 100%;
   object-fit: cover;
+}
+@media screen and (min-width: 1023px) {
+  .rest-img-ctn__img {
+    height: 100%;
+  }
 }
 
 .menu-ctn {
@@ -877,10 +962,22 @@ footer .foot-ctn .foot-link-txt-ctn {
   margin-top: -13.5rem;
   z-index: 2;
 }
+@media screen and (min-width: 1023px) {
+  .menu-ctn {
+    width: 60%;
+    border-radius: 0;
+    margin-top: 0;
+  }
+}
 .menu-ctn--smaller {
   width: 90%;
   margin: auto;
   padding-top: 8rem;
+}
+@media screen and (min-width: 1023px) {
+  .menu-ctn--smaller {
+    padding-top: 2rem;
+  }
 }
 .menu-ctn--smaller .rest-title-ctn {
   display: flex;
@@ -891,16 +988,37 @@ footer .foot-ctn .foot-link-txt-ctn {
 .menu-ctn--smaller .rest-title-ctn h1 {
   font-size: 8rem;
 }
+@media screen and (min-width: 1023px) {
+  .menu-ctn--smaller .rest-title-ctn h1 {
+    font-size: 4rem;
+  }
+}
 .menu-ctn--smaller .rest-title-ctn .rest-heart-icon {
   width: 6rem;
   height: 6rem;
+}
+@media screen and (min-width: 1023px) {
+  .menu-ctn--smaller .rest-title-ctn .rest-heart-icon {
+    width: 3rem;
+    height: 3rem;
+  }
 }
 
 .part-menu-ctn {
   margin-top: 8rem;
 }
+@media screen and (min-width: 1023px) {
+  .part-menu-ctn {
+    margin-top: 4rem;
+  }
+}
 .part-menu-ctn__title {
   margin-bottom: 0.5rem;
+}
+@media screen and (min-width: 1023px) {
+  .part-menu-ctn__title {
+    margin-bottom: 0.25rem;
+  }
 }
 .part-menu-ctn__title-underline {
   height: 1rem;
@@ -908,12 +1026,24 @@ footer .foot-ctn .foot-link-txt-ctn {
   background-color: #99E2D0;
   margin-bottom: 3rem;
 }
+@media screen and (min-width: 1023px) {
+  .part-menu-ctn__title-underline {
+    height: 0.5rem;
+    width: 6.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
 
 .btn-ctn {
   width: 100%;
   height: 40rem;
   display: flex;
   padding-bottom: 7.5rem;
+}
+@media screen and (min-width: 1023px) {
+  .btn-ctn {
+    height: 20rem;
+  }
 }
 .btn-ctn .btn--rest {
   width: 60%;

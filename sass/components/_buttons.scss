@@ -20,8 +20,8 @@
         }
     }
     @media screen and (min-width: $breakpoint-laptop) {
-        width: 18%;
-        max-width: 20rem;
+        width: 25%;
+        max-width: 30rem;
         padding: 1rem;
         @include card-btn-shadow(map-get($shadow, offset-bottom-laptop),
                                  map-get($shadow, offset-right-laptop), 

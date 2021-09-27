@@ -101,20 +101,35 @@
     }
     &--menu-cat {
         @include font-sizes(menu-cat);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(menu-cat-laptop);
+        }
     }
     &--menu-card-title {
         @include font-sizes(menu-card-title);
         @include text-clipping();
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(menu-card-title-laptop);
+        }
     }
     &--menu-card-desc {
         @include font-sizes(menu-card-desc);
         @include text-clipping();
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(menu-card-desc-laptop);
+        }
     }
     &--menu-card-price {
         @include font-sizes(menu-card-price);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(menu-card-price-laptop);
+        }
     }
     &--menu-btn {
         @include font-sizes(menu-btn);
+        @media screen and (min-width: $breakpoint-laptop) {
+            @include font-sizes(menu-btn-laptop);
+        }
     }
 
     // Uppercase

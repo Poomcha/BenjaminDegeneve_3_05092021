@@ -38,3 +38,9 @@ footer {
         }
     }
 }
+
+.laptop-footer {
+    @media screen and (min-width: $breakpoint-laptop) {
+        // height: 25vh;
+    }
+}
