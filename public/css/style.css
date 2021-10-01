@@ -440,7 +440,7 @@ a {
   min-height: 6rem;
   min-width: 6rem;
   max-width: 6rem;
-  background: url("./img/icons/check-circle-solid.svg") no-repeat;
+  background: url("/img/icons/check-circle-solid.svg") no-repeat;
   transform: rotate(0deg);
   transition: transform 400ms ease-out;
 }
