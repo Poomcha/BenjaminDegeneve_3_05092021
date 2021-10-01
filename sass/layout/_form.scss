@@ -9,7 +9,7 @@
         border-top: 0.2rem solid $border-form-clr;
     }
     &__img-ctn {
-        margin-left: 10rem;
+        margin-left: 16rem;
         @media screen and (min-width: $breakpoint-laptop) {
             margin-left: 5rem;
         }
@@ -22,7 +22,7 @@
     }
     &__form {
         height: map-get($icon-sizes, map-marker-size);
-        margin-left: 7rem;
+        margin-left: 5rem;
         @media screen and (min-width: $breakpoint-laptop) {
             height: map-get($icon-sizes, map-marker-size-laptop);
             margin-left: 4rem;

@@ -32,6 +32,7 @@
         @media screen and (min-width: $breakpoint-laptop) {
             @include font-sizes(title-laptop);
         }
+        font-weight: 700;
     }
     &--desc {
         @include font-sizes(desc);
@@ -58,6 +59,7 @@
         }
     }
     &--foot-logo {
+        font-weight: normal;
         @include font-sizes(foot-logo);
         @media screen and (min-width: $breakpoint-laptop) {
             @include font-sizes(foot-logo-laptop);
@@ -68,6 +70,7 @@
         @media screen and (min-width: $breakpoint-laptop) {
             @include font-sizes(desc-title-laptop);
         }
+        font-weight: 700;
     }
     &--btn {
         @include font-sizes(btn-txt);

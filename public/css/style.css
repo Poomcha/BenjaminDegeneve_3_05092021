@@ -103,6 +103,7 @@ body {
 }
 .txt--title {
   font-size: 8rem;
+  font-weight: 700;
 }
 @media screen and (min-width: 1023px) {
   .txt--title {
@@ -118,7 +119,7 @@ body {
   }
 }
 .txt--card-title {
-  font-size: 5rem;
+  font-size: 4.2rem;
 }
 @media screen and (min-width: 1023px) {
   .txt--card-title {
@@ -142,6 +143,7 @@ body {
   }
 }
 .txt--foot-logo {
+  font-weight: normal;
   font-size: 5rem;
 }
 @media screen and (min-width: 1023px) {
@@ -151,6 +153,7 @@ body {
 }
 .txt--title-desc {
   font-size: 8rem;
+  font-weight: 700;
 }
 @media screen and (min-width: 1023px) {
   .txt--title-desc {
@@ -437,7 +440,7 @@ a {
   min-height: 6rem;
   min-width: 6rem;
   max-width: 6rem;
-  background: url("../../img/icons/check-circle-solid.svg") no-repeat;
+  background: url("/img/icons/check-circle-solid.svg") no-repeat;
   transform: rotate(0deg);
   transition: transform 400ms ease-out;
 }
@@ -521,7 +524,6 @@ a {
 @media screen and (min-width: 1023px) {
   .list-card {
     width: 30%;
-    max-width: 30rem;
     height: 8rem;
     border-radius: 1.25rem;
     box-shadow: 0rem 0.3rem 0.3rem #bebebe;
@@ -539,6 +541,7 @@ a {
 }
 .list-card__num-ctn span {
   margin: auto;
+  text-align: center;
 }
 @media screen and (min-width: 1023px) {
   .list-card__num-ctn {
@@ -781,7 +784,7 @@ footer .foot-ctn .foot-link-txt-ctn {
   }
 }
 .form-ctn__img-ctn {
-  margin-left: 10rem;
+  margin-left: 16rem;
 }
 @media screen and (min-width: 1023px) {
   .form-ctn__img-ctn {
@@ -800,7 +803,7 @@ footer .foot-ctn .foot-link-txt-ctn {
 }
 .form-ctn__form {
   height: 4rem;
-  margin-left: 7rem;
+  margin-left: 5rem;
 }
 @media screen and (min-width: 1023px) {
   .form-ctn__form {
