@@ -70,6 +70,11 @@
 html {
   font-size: 62.5%;
 }
+@media (max-resolution: 190dpi) and (max-width: 1023px) {
+  html {
+    font-size: 30%;
+  }
+}
 
 body {
   max-width: 100%;
@@ -307,6 +312,12 @@ body {
   bottom: 0.22rem;
   background: linear-gradient(to top, #FF79DA, #9356DC) no-repeat bottom;
   background-size: 6rem 0rem;
+}
+@media (max-resolution: 190dpi) and (max-width: 1023px) {
+  .heart-btn .fa-heart {
+    right: 8%;
+    bottom: 8%;
+  }
 }
 @media screen and (min-width: 1024px) {
   .heart-btn .fa-heart {
