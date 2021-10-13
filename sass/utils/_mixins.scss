@@ -35,3 +35,9 @@
     text-overflow: ellipsis;
     display: block;
 }
+
+@mixin resized-nav {
+    @media (max-resolution: 190dpi) and (max-width: 1023px) {
+        @content;
+    }
+}

@@ -45,6 +45,9 @@
         @media screen and (min-width: $breakpoint-laptop) {
             @include font-sizes(card-title-laptop);
         }
+        @include resized-nav {
+            font-size: 4.8rem;
+        }
     }
     &--price {
         @include font-sizes(price);
@@ -89,11 +92,17 @@
         @media screen and (min-width: $breakpoint-laptop) {
             @include font-sizes(list-card-titre-laptop);
         }
+        @include resized-nav {
+            font-size: 4rem;
+        }
     }
     &--card-desc {
         @include font-sizes(card-desc);
         @media screen and (min-width: $breakpoint-laptop) {
             @include font-sizes(card-desc-laptop);
+        }
+        @include resized-nav {
+            font-size: 4rem;
         }
     }
     &--foot-links {
@@ -114,6 +123,9 @@
         @media screen and (min-width: $breakpoint-laptop) {
             @include font-sizes(menu-card-title-laptop);
         }
+        @include resized-nav {
+            font-size: 4.8rem;
+        }
     }
     &--menu-card-desc {
         @include font-sizes(menu-card-desc);
@@ -121,17 +133,26 @@
         @media screen and (min-width: $breakpoint-laptop) {
             @include font-sizes(menu-card-desc-laptop);
         }
+        @include resized-nav {
+            font-size: 4rem;
+        }
     }
     &--menu-card-price {
         @include font-sizes(menu-card-price);
         @media screen and (min-width: $breakpoint-laptop) {
             @include font-sizes(menu-card-price-laptop);
         }
+        @include resized-nav {
+            font-size: 4rem;
+        }
     }
     &--menu-btn {
         @include font-sizes(menu-btn);
         @media screen and (min-width: $breakpoint-laptop) {
             @include font-sizes(menu-btn-laptop);
+        }
+        @include resized-nav {
+            font-size: 5rem;
         }
     }
 

@@ -8,9 +8,9 @@
 
 html {
     font-size: 62.5%;
-    @media (max-resolution: 190dpi) and (max-width: 1023px) {
-        font-size: 30%;
-    }
+    @include resized-nav {
+        font-size: 20%
+   }
     // @media screen and (min-width: $breakpoint-laptop) {
     //     font-size: 6.25%;
     // }

@@ -28,6 +28,9 @@
                                  map-get($shadow, offset-blur-laptop),
                                  map-get($shadow, spread-laptop));
     }
+    @include resized-nav {
+        width: 70rem;
+    }
 }
 
 .heart-btn {
@@ -53,9 +56,9 @@
         bottom: .22rem;
         background: $heart-color no-repeat bottom;
         background-size: 6rem 0rem;
-        @media (max-resolution: 190dpi) and (max-width: 1023px) {
-            right: 8%;
-            bottom: 8%;
+        @include resized-nav {
+            right: 0.6rem;
+            bottom: 0.5rem;
         }
         @media screen and (min-width: $breakpoint-laptop) {
             font-size: 3rem;

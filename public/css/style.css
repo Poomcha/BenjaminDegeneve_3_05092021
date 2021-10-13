@@ -72,7 +72,7 @@ html {
 }
 @media (max-resolution: 190dpi) and (max-width: 1023px) {
   html {
-    font-size: 30%;
+    font-size: 20%;
   }
 }
 
@@ -129,6 +129,11 @@ body {
 @media screen and (min-width: 1024px) {
   .txt--card-title {
     font-size: 2rem;
+  }
+}
+@media (max-resolution: 190dpi) and (max-width: 1023px) {
+  .txt--card-title {
+    font-size: 4.8rem;
   }
 }
 .txt--price {
@@ -189,12 +194,22 @@ body {
     font-size: 2rem;
   }
 }
+@media (max-resolution: 190dpi) and (max-width: 1023px) {
+  .txt--list-card-title {
+    font-size: 4rem;
+  }
+}
 .txt--card-desc {
   font-size: 4rem;
 }
 @media screen and (min-width: 1024px) {
   .txt--card-desc {
     font-size: 1.5rem;
+  }
+}
+@media (max-resolution: 190dpi) and (max-width: 1023px) {
+  .txt--card-desc {
+    font-size: 4rem;
   }
 }
 .txt--foot-links {
@@ -225,6 +240,11 @@ body {
     font-size: 2rem;
   }
 }
+@media (max-resolution: 190dpi) and (max-width: 1023px) {
+  .txt--menu-card-title {
+    font-size: 4.8rem;
+  }
+}
 .txt--menu-card-desc {
   font-size: 3rem;
   white-space: nowrap;
@@ -237,6 +257,11 @@ body {
     font-size: 1.5rem;
   }
 }
+@media (max-resolution: 190dpi) and (max-width: 1023px) {
+  .txt--menu-card-desc {
+    font-size: 4rem;
+  }
+}
 .txt--menu-card-price {
   font-size: 3rem;
 }
@@ -245,12 +270,22 @@ body {
     font-size: 1.5rem;
   }
 }
+@media (max-resolution: 190dpi) and (max-width: 1023px) {
+  .txt--menu-card-price {
+    font-size: 4rem;
+  }
+}
 .txt--menu-btn {
   font-size: 4rem;
 }
 @media screen and (min-width: 1024px) {
   .txt--menu-btn {
     font-size: 2rem;
+  }
+}
+@media (max-resolution: 190dpi) and (max-width: 1023px) {
+  .txt--menu-btn {
+    font-size: 5rem;
   }
 }
 .txt--to-upper {
@@ -285,6 +320,11 @@ body {
     box-shadow: 0rem 0.3rem 0.3rem #bebebe;
   }
 }
+@media (max-resolution: 190dpi) and (max-width: 1023px) {
+  .btn {
+    width: 70rem;
+  }
+}
 
 .heart-btn {
   position: absolute;
@@ -315,8 +355,8 @@ body {
 }
 @media (max-resolution: 190dpi) and (max-width: 1023px) {
   .heart-btn .fa-heart {
-    right: 8%;
-    bottom: 8%;
+    right: 0.6rem;
+    bottom: 0.5rem;
   }
 }
 @media screen and (min-width: 1024px) {
