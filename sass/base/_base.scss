@@ -21,3 +21,13 @@ body {
     max-width: 100%;
     position: relative;
 }
+
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: #9356DC;
+}

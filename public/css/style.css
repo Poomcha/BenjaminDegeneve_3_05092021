@@ -81,6 +81,16 @@ body {
   position: relative;
 }
 
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: #9356DC;
+}
+
 * {
   font-family: "Roboto", sans-serif;
 }
